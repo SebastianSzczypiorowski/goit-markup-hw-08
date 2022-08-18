@@ -38,13 +38,20 @@
   height: 80px;
   left: 0px;
   top: 0px;
-  display: inline-flex;
   border: 2px dashed #2196f3;
-  position: central;
 }
-.list-item {
-  margin-left: 453px;
-  margin-top: 32px;
-  width: 53px;
-  height: 16px;
+.list-item-agency {
+  padding-left: 453px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.list-item-agnecy {
+  padding-left: 46px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.list-item-contact {
+  padding-left: 46px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
