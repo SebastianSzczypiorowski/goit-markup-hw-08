@@ -1,14 +1,50 @@
+:root {
+  --focus-color: var(--focus-color) #2196f3;
+  --header-color: var(--header-color) #212121;
+  --adress-color: var(--adress-color) #ffffff;
+}
 .logo-styles {
-  font-family: "Raleway", sans-serif;
-  position: absolute;
-  width: 145px;
-  height: 31px;
-  left: 215px;
-  top: 24px;
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
-  color: #2196f3;
+}
+/* header {
+  position: absolute;
+  width: 1600px;
+  height: 80px;
+  left: 0px;
+  top: 0px;
+} */
+
+.navigation {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+.navigation-item {
+  position: absolute;
+  width: 53px;
+  height: 16px;
+  left: 453px;
+  top: 32px;
+}
+.header-content {
+  width: 1600px;
+  height: 80px;
+  left: 0px;
+  top: 0px;
+  display: inline-flex;
+  border: 2px dashed #2196f3;
+  position: central;
+}
+.list-item {
+  margin-left: 453px;
+  margin-top: 32px;
+  width: 53px;
+  height: 16px;
 }
