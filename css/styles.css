@@ -11,7 +11,16 @@ body {
   font-family: "Roboto", sans-serif;
   color: var(--text-color);
 }
-
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+}
+section {
+  width: 1600px;
+}
 .logo-styles {
   font-family: "Raleway";
   font-style: normal;
@@ -29,10 +38,7 @@ body {
 }
 
 .navigation {
-  width: 1600px;
-  height: 80px;
-  left: 0px;
-  top: 0px;
+  display: inline-flex;
 }
 
 .header-content {
@@ -69,10 +75,6 @@ body {
   color: var(--focus-color);
 }
 .main-container {
-  width: 1600px;
-  height: 600px;
-  left: 0px;
-  top: 80px;
   background: var(--background-color);
 }
 .main-heading {
@@ -240,4 +242,7 @@ button:hover {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   font-style: normal;
+}
+.header-flex-section {
+  display: flex;
 }
