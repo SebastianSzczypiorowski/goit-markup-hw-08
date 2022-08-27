@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -14,192 +18,212 @@
     <title>Portfolio</title>
   </head>
   <body>
-    <header class="header-content">
-      <nav>
-        <a class="logo-styles" href="./index.html"
-          ><h3><span class="logo">Web</span>Studio</h3></a
-        >
-        <ul>
-          <li>
-            <a class="nav-list-item" href="./index.html">Agencja</a>
-          </li>
-          <li>
-            <a class="nav-list-item" href="./portfolio.html">Portfolio</a>
-          </li>
-          <li>
-            <a class="nav-list-item" href="./index.html">Kontakty</a>
-          </li>
-        </ul>
-      </nav>
-      <div>
-        <p>
-          <a class="nav-link" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-        </p>
-        <a class="nav-link" href="tel:+48111111111">+48 111 111 111</a>
+    <header>
+      <div class="header-border">
+        <div class="container">
+          <div class="header-container">
+            <a class="logo-styles" href="./index.html"
+              ><h3><span class="logo">Web</span>Studio</h3></a
+            >
+            <nav class="navigation">
+              <ul class="nav-links">
+                <li>
+                  <a class="nav-list-item" href="./index.html">Agencja</a>
+                </li>
+                <li>
+                  <a class="nav-list-item" href="./portfolio.html">Portfolio</a>
+                </li>
+                <li>
+                  <a class="nav-list-item" href="./index.html">Kontakt</a>
+                </li>
+              </ul>
+            </nav>
+            <div class="nav-flex">
+              <p>
+                <a class="nav-link" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </p>
+              <a class="nav-link" href="tel:+48111111111">+48 111 111 111</a>
+            </div>
+          </div>
+        </div>
       </div>
     </header>
 
     <main>
-      <div>
-        <ul>
-          <li><button type="button">Wszystkie</button></li>
-          <li><button type="button">Strony</button></li>
-          <li><button type="button">Aplikacje</button></li>
-          <li><button type="button">Dizajn</button></li>
-          <li><button type="button">Marketing</button></li>
-        </ul>
+      <div class="container">
+        <div>
+          <ul class="buttons-flex">
+            <li><button type="button">Wszystkie</button></li>
+            <li><button type="button">Strony</button></li>
+            <li><button type="button">Aplikacje</button></li>
+            <li><button type="button">Dizajn</button></li>
+            <li><button type="button">Marketing</button></li>
+          </ul>
+        </div>
       </div>
 
-      <div class="content-section">
-        <ul class="content-list">
-          <li>
-            <figure>
-              <img
-                src="images/image8.jpg"
-                alt="Laptop z otwartą stroną internetową o nazwie Technocrack"
-                width="370"
-                height="294"
-              />
-              <figcaption>
-                <p class="list-description">Technocrack</p>
-                <p class="list-example">Strona internetowa</p>
-              </figcaption>
-            </figure>
-          </li>
-          <li>
-            <figure>
-              <img
-                src="images/image9.jpg"
-                alt="Dwóch koszykarzy w powietrzu, jeden trzyma piłkę a drugi próbuje mu ją odebrać"
-                width="370"
-                height="294"
-              />
-              <figcaption>
-                <p class="list-description">
-                  Grafika New Orlean vs Golden Star
-                </p>
-                <p class="list-example">Dizajn</p>
-              </figcaption>
-            </figure>
-          </li>
-          <li>
-            <figure>
-              <img
-                src="images/image10.jpg"
-                alt="Logo Seafood przedstawiające rybe"
-                width="370"
-                height="294"
-              />
-              <figcaption>
-                <p class="list-description">Restauracja Seafood</p>
-                <p class="list-example">Aplikacja</p>
-              </figcaption>
-            </figure>
-          </li>
-          <li>
-            <figure>
-              <img
-                src="images/image11.jpg"
-                alt="słuchawki nauszne"
-                width="370"
-                height="294"
-              />
-              <figcaption>
-                <p class="list-description">Projekt Prime</p>
-                <p class="list-example">Marketing</p>
-              </figcaption>
-            </figure>
-          </li>
-          <li>
-            <figure>
-              <img
-                src="images/image12.jpg"
-                alt="Dwa pudełka jedno białe drugie brązowe"
-                width="370"
-                height="294"
-              />
-              <figcaption>
-                <p class="list-description">Projekt Boxes</p>
-                <p class="list-example">Aplikacja</p>
-              </figcaption>
-            </figure>
-          </li>
-          <li>
-            <figure>
-              <img
-                src="images/image13.jpg"
-                alt="Komputer Mac"
-                width="370"
-                height="294"
-              />
-              <figcaption>
-                <p class="list-description">Inspiration has no Borders</p>
-                <p class="list-example">Strona internetowa</p>
-              </figcaption>
-            </figure>
-          </li>
-          <li>
-            <figure>
-              <img
-                src="images/image14.jpg"
-                alt="otwarty magazyn limited edition"
-                width="370"
-                height="294"
-              />
-              <figcaption>
-                <p class="list-description">Magazyn Limited Edition</p>
-                <p class="list-example">Dizajn</p>
-              </figcaption>
-            </figure>
-          </li>
-          <li>
-            <figure>
-              <img
-                src="images/image15.jpg"
-                alt="logo projektu projekt LAB zawieszone na sznurku"
-                width="370"
-                height="294"
-              />
-              <figcaption>
-                <p class="list-description">Projekt LAB</p>
-                <p class="list-example">Marketing</p>
-              </figcaption>
-            </figure>
-          </li>
-          <li>
-            <figure>
-              <img
-                src="images/image16.jpg"
-                alt="Mężczyzna piszący na klawiaturze od laptopa"
-                width="370"
-                height="294"
-              />
-              <figcaption>
-                <p class="list-description">Growing Business</p>
-                <p class="list-example">Aplikacja</p>
-              </figcaption>
-            </figure>
-          </li>
-        </ul>
-      </div>
+      <section class="container">
+        <div class="content-section">
+          <ul class="content-list">
+            <li class="wrap-item">
+              <figure class="figure-item">
+                <img
+                  src="images/image8.jpg"
+                  alt="Laptop z otwartą stroną internetową o nazwie Technocrack"
+                  width="370"
+                  height="294"
+                />
+                <figcaption class="figcaption-border">
+                  <p class="list-description">Technocrack</p>
+                  <p class="list-example">Strona internetowa</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="wrap-item">
+              <figure class="figure-item">
+                <img
+                  src="images/image9.jpg"
+                  alt="Dwóch koszykarzy w powietrzu, jeden trzyma piłkę a drugi próbuje mu ją odebrać"
+                  width="370"
+                  height="294"
+                />
+                <figcaption class="figcaption-border">
+                  <p class="list-description">
+                    Grafika New Orlean vs Golden Star
+                  </p>
+                  <p class="list-example">Dizajn</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="wrap-item">
+              <figure class="figure-item">
+                <img
+                  src="images/image10.jpg"
+                  alt="Logo Seafood przedstawiające rybe"
+                  width="370"
+                  height="294"
+                />
+                <figcaption class="figcaption-border">
+                  <p class="list-description">Restauracja Seafood</p>
+                  <p class="list-example">Aplikacja</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="wrap-item">
+              <figure class="figure-item">
+                <img
+                  src="images/image11.jpg"
+                  alt="słuchawki nauszne"
+                  width="370"
+                  height="294"
+                />
+                <figcaption class="figcaption-border">
+                  <p class="list-description">Projekt Prime</p>
+                  <p class="list-example">Marketing</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="wrap-item">
+              <figure class="figure-item">
+                <img
+                  src="images/image12.jpg"
+                  alt="Dwa pudełka jedno białe drugie brązowe"
+                  width="370"
+                  height="294"
+                />
+                <figcaption class="figcaption-border">
+                  <p class="list-description">Projekt Boxes</p>
+                  <p class="list-example">Aplikacja</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="wrap-item">
+              <figure class="figure-item">
+                <img
+                  src="images/image13.jpg"
+                  alt="Komputer Mac"
+                  width="370"
+                  height="294"
+                />
+                <figcaption class="figcaption-border">
+                  <p class="list-description">Inspiration has no Borders</p>
+                  <p class="list-example">Strona internetowa</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="wrap-item">
+              <figure class="figure-item">
+                <img
+                  src="images/image14.jpg"
+                  alt="otwarty magazyn limited edition"
+                  width="370"
+                  height="294"
+                />
+                <figcaption class="figcaption-border">
+                  <p class="list-description">Magazyn Limited Edition</p>
+                  <p class="list-example">Dizajn</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="wrap-item">
+              <figure class="figure-item">
+                <img
+                  src="images/image15.jpg"
+                  alt="logo projektu projekt LAB zawieszone na sznurku"
+                  width="370"
+                  height="294"
+                />
+                <figcaption class="figcaption-border">
+                  <p class="list-description">Projekt LAB</p>
+                  <p class="list-example">Marketing</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="wrap-item">
+              <figure class="figure-item">
+                <img
+                  src="images/image16.jpg"
+                  alt="Mężczyzna piszący na klawiaturze od laptopa"
+                  width="370"
+                  height="294"
+                />
+                <figcaption class="figcaption-border">
+                  <p class="list-description">Growing Business</p>
+                  <p class="list-example">Aplikacja</p>
+                </figcaption>
+              </figure>
+            </li>
+          </ul>
+        </div>
+      </section>
 
       <footer>
-        <a class="logo-footer" href="/index.html"
-          ><h3><span class="logo">Web</span>Studio</h3></a
-        >
-        <address>
-          <p class="address-styles">m. Warszawa, Aleje Jerozolimskie 21</p>
-          <p>
-            <a class="footer-nav-secondary" href="mailto:info@example.com"
-              >info@devstudio.com</a
-            >
-          </p>
-          <p>
-            <a class="footer-nav" href="tel:+48111111111">+48 111 111 111</a>
-          </p>
-        </address>
+        <div class="main-background">
+          <div class="container">
+            <div class="footer-contaier">
+              <a href="/index.html" class="logo-footer"
+                ><h3><span class="logo">Web</span>Studio</h3></a
+              >
+              <address class="footer-flex">
+                <p class="address-styles">
+                  m. Warszawa, Aleje Jerozolimskie 21
+                </p>
+                <p>
+                  <a class="footer-nav" href="mailto:info@example.com"
+                    >info@devstudio.com</a
+                  >
+                </p>
+                <p>
+                  <a class="footer-nav" href="tel:+48111111111"
+                    >+48 111 111 111</a
+                  >
+                </p>
+              </address>
+            </div>
+          </div>
+        </div>
       </footer>
     </main>
   </body>
