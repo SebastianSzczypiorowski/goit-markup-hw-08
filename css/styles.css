@@ -33,7 +33,7 @@ img {
   width: 1200px;
   margin: 0 auto;
   display: block;
-  border: 1px solid #212121;
+  /* border: 1px solid #212121; */
 }
 .header-container {
   display: flex;
