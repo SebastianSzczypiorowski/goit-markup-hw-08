@@ -39,6 +39,8 @@ img {
   display: flex;
   flex-direction: row;
   margin: 0 auto;
+  align-content: center;
+  justify-content: center;
 }
 .header-border {
   border-bottom: 1px solid var(--header-border);
@@ -54,7 +56,7 @@ img {
   color: var(--header-color);
   width: 145px;
   height: 31px;
-  margin: 24px 93px 25px 0px;
+  margin: 24px 93px 25px 15px;
 }
 .logo {
   color: var(--focus-color);
@@ -88,7 +90,7 @@ img {
   display: flex;
   flex-direction: row;
   gap: 50px;
-  margin: 32px 0px 32px auto;
+  margin: 32px 15px 32px auto;
 }
 .nav-link {
   font-family: "Roboto";
@@ -268,6 +270,7 @@ img {
   letter-spacing: 0.03em;
   color: var(--adress-color);
   text-decoration: none;
+  margin-left: 15px;
 }
 .footer-flex {
   display: flex;
@@ -281,6 +284,7 @@ img {
   letter-spacing: 0.03em;
   color: var(--adress-color);
   font-style: normal;
+  margin-left: 15px;
 }
 .footer-nav {
   font-family: "Roboto";
@@ -290,6 +294,7 @@ img {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
   font-style: normal;
+  margin-left: 15px;
 }
 .footer-nav:hover {
   color: var(--focus-color);
