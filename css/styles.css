@@ -8,6 +8,7 @@
   --background-portfolio: #e5e5e5;
   --header-border: #ececec;
   --image-background: #eeeeee;
+  --svg-background: #f5f4fa;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -143,6 +144,7 @@ img {
   margin: 0 auto;
 }
 .main-background {
+  background-color: var(--background-color);
   background-image: url(/images/image17.jpg);
   max-width: 1600px;
   margin: 0 auto;
@@ -395,4 +397,15 @@ button:hover {
 .figcaption-border {
   border: 1px solid var(--image-background);
   border-top: 0;
+}
+/* ----------------------------------------------------------------svg--------------------------------------------------------- */
+
+.svg-container {
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  background-color: var(--svg-background);
+  margin-bottom: 30px;
+  padding-top: 20px;
+  padding-left: 102px;
 }
