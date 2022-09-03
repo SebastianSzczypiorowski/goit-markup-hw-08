@@ -69,6 +69,8 @@ img {
   gap: 46px;
   padding-top: 32px;
   padding-bottom: 32px;
+  justify-content: center;
+  align-content: center;
 }
 
 .nav-list-item {
@@ -410,4 +412,10 @@ button:hover {
   padding-left: 102px;
 }
 .svg-envelope {
+  /* display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  width: auto;
+  height: auto; */
 }
