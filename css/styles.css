@@ -219,7 +219,7 @@ img {
 }
 .team-image {
   width: 270px;
-  height: 368px;
+  height: 428px;
   left: 215px;
   top: 1635px;
 
@@ -400,6 +400,9 @@ button:hover {
   border: 1px solid var(--image-background);
   border-top: 0;
 }
+.last-section-header {
+  margin-bottom: 50px;
+}
 /* ----------------------------------------------------------------svg--------------------------------------------------------- */
 
 .svg-container {
@@ -412,10 +415,13 @@ button:hover {
   padding-left: 102px;
 }
 .svg-envelope {
-  /* display: flex;
+  margin-left: 10px;
+}
+.svg-flex {
+  display: flex;
   flex-direction: row;
-  justify-content: center;
+  gap: 30px;
+  margin: 0 auto;
   align-content: center;
-  width: auto;
-  height: auto; */
+  justify-content: center;
 }
