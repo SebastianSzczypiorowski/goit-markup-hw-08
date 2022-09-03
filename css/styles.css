@@ -277,6 +277,7 @@ img {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  flex-wrap: wrap;
 }
 .logo-footer {
   font-family: "Raleway";
@@ -318,6 +319,7 @@ img {
 .footer-background {
   background-color: var(--background-color);
 }
+
 /* ----------------------------------------------------------------------Portfolio----------------------------------------------------------------------------- */
 button {
   width: 93px;
@@ -402,6 +404,20 @@ button:hover {
 }
 .last-section-header {
   margin-bottom: 50px;
+}
+.footer-header {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--adress-color);
+}
+.footer-socials {
+  display: flex;
+  flex-direction: column;
 }
 /* ----------------------------------------------------------------svg--------------------------------------------------------- */
 
