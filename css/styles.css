@@ -103,6 +103,7 @@ img {
 .icon-margin:hover,
 .icon-margin:focus {
   fill: var(--focus-color);
+  color: var(--focus-color);
 }
 .nav-link {
   display: flex;
@@ -113,6 +114,15 @@ img {
 .nav-link:hover,
 .nav-link:focus {
   fill: var(--focus-color);
+  color: var(--focus-color);
+}
+
+.nav-link:hover,
+.icon-margin:hover,
+.nav-link:focus,
+.icon-margin:focus {
+  fill: var(--focus-color);
+  color: var(--focus-color);
 }
 .nav-links {
   display: flex;
@@ -164,6 +174,7 @@ img {
 .nav-link:hover,
 .nav-link:focus {
   color: var(--focus-color);
+  fill: var(--focus-color);
 }
 .main-container {
   padding-top: 200px;
