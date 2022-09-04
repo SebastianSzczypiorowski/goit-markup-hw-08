@@ -94,6 +94,8 @@ img {
   flex-direction: row;
   gap: 50px;
   margin: 32px 15px 32px auto;
+  align-content: center;
+  justify-content: center;
 }
 .nav-link {
   font-family: "Roboto";
@@ -103,6 +105,8 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
+  align-content: center;
+  justify-content: center;
 }
 .nav-link:hover {
   color: var(--focus-color);
@@ -432,6 +436,8 @@ button:hover {
 }
 .svg-envelope {
   margin-left: 10px;
+  align-content: center;
+  justify-content: center;
 }
 .svg-flex {
   display: flex;
@@ -449,4 +455,25 @@ button:hover {
   flex-direction: column;
   margin-top: 72px;
   margin-left: 70px;
+}
+.figcaption-item:hover {
+  fill: var(--adress-color);
+  background-color: var(--focus-color);
+}
+.icon-margin {
+  margin-right: 10px;
+}
+.contact-icon :hover,
+.contact-icon :focus {
+  fill: var(--focus-color);
+}
+.team-social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  fill: var(--team-social);
+  background-color: var(--white);
 }
