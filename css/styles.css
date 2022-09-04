@@ -11,6 +11,7 @@
   --svg-background: #f5f4fa;
   --svg-color: #afb1b8;
   --svg-color-footer: rgba(255, 255, 255, 0.1);
+  --gradient: rgba(47, 48, 58, 0.4);
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -36,8 +37,25 @@ img {
   width: 1200px;
   margin: 0 auto;
   display: block;
-  border: 1px solid #212121;
+  /* border: 1px solid #212121; */
 }
+
+.container-primary {
+  width: 1200px;
+  margin: 0 auto;
+  display: block;
+  padding-bottom: 94px;
+}
+
+.container-secondary {
+  width: 1200px;
+  margin: 0 auto;
+  display: block;
+  /* border: 1px solid #212121; */
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .header-container {
   display: flex;
   flex-direction: row;
@@ -64,6 +82,11 @@ img {
 .logo {
   color: var(--focus-color);
 }
+.navigation {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
 .nav-contact {
   display: flex;
   margin-left: 345px;
@@ -77,6 +100,20 @@ img {
   fill: var(--svg-color);
 }
 
+.icon-margin:hover,
+.icon-margin:focus {
+  fill: var(--focus-color);
+}
+.nav-link {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  fill: var(--focus-color);
+}
 .nav-links {
   display: flex;
   flex-direction: row;
@@ -112,6 +149,7 @@ img {
   justify-content: center;
 }
 .nav-link {
+  display: flex;
   font-family: "Roboto";
   color: var(--text-color);
   font-weight: 500;
@@ -163,9 +201,12 @@ img {
   /* border: 1px solid black; */
   margin: 0 auto;
 }
+
 .main-background {
   background-color: var(--background-color);
-  background-image: url(/images/image17.jpg);
+  background-image: linear-gradient(var(--gradient), var(--gradient)),
+    url(../images/image17.jpg);
+  background-repeat: no-repeat;
   max-width: 1600px;
   margin: 0 auto;
 }
@@ -339,6 +380,15 @@ img {
 }
 
 /* ----------------------------------------------------------------------Portfolio----------------------------------------------------------------------------- */
+
+.container-portfolio {
+  width: 1200px;
+  margin: 0 auto;
+  display: block;
+  margin-top: 50px;
+  margin-bottom: 94px;
+}
+
 button {
   width: 93px;
   height: 38px;
@@ -368,6 +418,8 @@ button:hover {
 .content-list {
   display: flex;
   flex-wrap: wrap;
+  flex-basis: calc(100% / 3);
+  gap: 30px;
   align-content: center;
   justify-content: center;
 
@@ -389,6 +441,7 @@ button:hover {
   letter-spacing: 0.03em;
   color: var(--text-color);
   margin-left: 24px;
+  margin-bottom: 20px;
 }
 .footer-nav-secondary {
   font-family: "Roboto";
@@ -406,19 +459,23 @@ button:hover {
   align-content: center;
   /* border: 1px solid black; */
   margin-top: 94px;
+  margin-bottom: 0px;
 }
 .figure-item {
   width: 370px;
   height: 404px;
   background: var(--adress-color);
-  margin: 0 auto;
+
+  margin-bottom: 0;
 }
-.wrap-item {
-  flex-basis: calc(100% / 3);
+.figure-item:hover,
+.figure-item:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
+
 .figcaption-border {
   border: 1px solid var(--image-background);
-  border-top: 0;
 }
 .last-section-header {
   margin-bottom: 50px;
@@ -437,6 +494,14 @@ button:hover {
   display: flex;
   flex-direction: column;
 }
+.portfolio-background {
+  background-color: var(--background-color);
+}
+/* .portfolio-img:hover,
+.portfolio-img:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+} */
 /* ----------------------------------------------------------------svg--------------------------------------------------------- */
 
 .svg-container {
@@ -538,11 +603,14 @@ button:hover {
   width: 170px;
   height: 92px;
   border: 1px solid var(--svg-color);
-  fill: var(--svg-color-footer);
+  fill: var(--svg-color);
   border-radius: 4px;
 }
 .clients-link:hover,
 .clients-link:focus {
   fill: var(--focus-color);
   border-color: var(--focus-color);
+}
+.our-clients-background {
+  background-color: var(--adress-color);
 }
