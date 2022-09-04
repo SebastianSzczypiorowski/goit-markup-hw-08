@@ -38,18 +38,20 @@
                 </li>
               </ul>
             </nav>
-            <div class="nav-flex">
+            <div class="nav-flex"> 
               <p>
-                <a class="nav-link" href="mailto:info@devstudio.com"
-                  >info@devstudio.com</a
-                >
+                <a class="nav-link" href="mailto:info@devstudio.com"><svg class="icon-margin" height="17" width="16">
+                  <use class="icon-margin" xlink:href="./images/icons.svg#envelope"></use></svg
+                >info@devstudio.com</a>
               </p>
-              <a class="nav-link" href="tel:+48111111111">+48 111 111 111</a>
+              <a class="nav-link" href="tel:+48111111111"><svg class="icon-margin" height="15" width="16">
+                <use class="icon-margin" xlink:href="./images/icons.svg#smartphone"></use></svg
+              ></use></svg>+48 111 111 111</a>
             </div>
           </div>
         </div>
       </div>
-    </header>
+     </header>
 
     <main>
       <div class="container">
@@ -64,7 +66,7 @@
         </div>
       </div>
 
-      <section class="container">
+      <div class="container-portfolio">
         <div class="content-section">
           <ul class="content-list">
             <li class="wrap-item">
@@ -72,7 +74,7 @@
                 <img
                   src="images/image8.jpg"
                   alt="Laptop z otwartą stroną internetową o nazwie Technocrack"
-                  width="370"
+                  
                   height="294"
                 />
                 <figcaption class="figcaption-border">
@@ -81,7 +83,7 @@
                 </figcaption>
               </figure>
             </li>
-            <li class="wrap-item">
+            <li>
               <figure class="figure-item">
                 <img
                   src="images/image9.jpg"
@@ -97,7 +99,7 @@
                 </figcaption>
               </figure>
             </li>
-            <li class="wrap-item">
+            <li>
               <figure class="figure-item">
                 <img
                   src="images/image10.jpg"
@@ -111,13 +113,14 @@
                 </figcaption>
               </figure>
             </li>
-            <li class="wrap-item">
+            <li>
               <figure class="figure-item">
                 <img
                   src="images/image11.jpg"
                   alt="słuchawki nauszne"
                   width="370"
                   height="294"
+                  class=""
                 />
                 <figcaption class="figcaption-border">
                   <p class="list-description">Projekt Prime</p>
@@ -125,7 +128,7 @@
                 </figcaption>
               </figure>
             </li>
-            <li class="wrap-item">
+            <li>
               <figure class="figure-item">
                 <img
                   src="images/image12.jpg"
@@ -139,7 +142,7 @@
                 </figcaption>
               </figure>
             </li>
-            <li class="wrap-item">
+            <li>
               <figure class="figure-item">
                 <img
                   src="images/image13.jpg"
@@ -153,7 +156,7 @@
                 </figcaption>
               </figure>
             </li>
-            <li class="wrap-item">
+            <li>
               <figure class="figure-item">
                 <img
                   src="images/image14.jpg"
@@ -167,7 +170,7 @@
                 </figcaption>
               </figure>
             </li>
-            <li class="wrap-item">
+            <li>
               <figure class="figure-item">
                 <img
                   src="images/image15.jpg"
@@ -181,7 +184,7 @@
                 </figcaption>
               </figure>
             </li>
-            <li class="wrap-item">
+            <li>
               <figure class="figure-item">
                 <img
                   src="images/image16.jpg"
@@ -197,30 +200,90 @@
             </li>
           </ul>
         </div>
-      </section>
+      </div>
 
       <footer>
-        <div class="main-background">
+        <div class="portfolio-background">
           <div class="container">
-            <div class="footer-contaier">
-              <a href="/index.html" class="logo-footer"
-                ><h3><span class="logo">Web</span>Studio</h3></a
-              >
-              <address class="footer-flex">
-                <p class="address-styles">
-                  m. Warszawa, Aleje Jerozolimskie 21
-                </p>
-                <p>
-                  <a class="footer-nav" href="mailto:info@example.com"
-                    >info@devstudio.com</a
-                  >
-                </p>
-                <p>
-                  <a class="footer-nav" href="tel:+48111111111"
-                    >+48 111 111 111</a
-                  >
-                </p>
-              </address>
+            <div class="footer-item">
+              <div class="footer-contaier">
+                <a href="/index.html" class="logo-footer"
+                  ><h3><span class="logo">Web</span>Studio</h3></a
+                >
+                <address class="footer-flex">
+                  <p class="address-styles">
+                    m. Warszawa, Aleje Jerozolimskie 21
+                  </p>
+                  <p>
+                    <a class="footer-nav" href="mailto:info@example.com"
+                      >info@devstudio.com</a
+                    >
+                  </p>
+                  <p>
+                    <a class="footer-nav" href="tel:+48111111111"
+                      >+48 111 111 111</a
+                    >
+                  </p>
+                </address>
+              </div>
+              <div class="footer-item">
+                <div class="footer-svg-flex">
+                  <div><h3 class="footer-header">DOŁĄCZ DO NAS</h3></div>
+                  <ul class="footer-social-list">
+                    <li>
+                      <a
+                        href="https://instagram.com"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        class="footer-social-link"
+                      >
+                        <svg width="20" height="20">
+                          <use xlink:href="./images/icons.svg#instagram"></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://facebook.com"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        class="footer-social-link"
+                      >
+                        <svg width="20" height="20">
+                          <use
+                            xlink:href="./images/icons.svg#facebook"
+                          ></use></svg
+                      ></a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://twitter.com"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        class="footer-social-link"
+                      >
+                        <svg width="20" height="20">
+                          <use
+                            xlink:href="./images/icons.svg#twitter"
+                          ></use></svg
+                      ></a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://linkedin.com"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        class="footer-social-link"
+                      >
+                        <svg width="20" height="20">
+                          <use
+                            xlink:href="./images/icons.svg#linkedin"
+                          ></use></svg
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
         </div>
