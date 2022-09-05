@@ -214,6 +214,10 @@ img {
   /* border: 1px solid black; */
   margin: 0 auto;
 }
+.backgraund {
+  background: var(--background-color);
+  margin: 0px;
+}
 
 .main-background {
   background-color: var(--background-color);
