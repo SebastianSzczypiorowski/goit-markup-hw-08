@@ -171,9 +171,11 @@ img {
   align-content: center;
   justify-content: center;
 }
-.nav-link:hover,
-.nav-link:focus {
-  color: var(--focus-color);
+.nav-link:hover .icon-margin {
+  fill: var(--focus-color);
+}
+
+.nav-link:focus .icon-margin {
   fill: var(--focus-color);
 }
 .main-container {
