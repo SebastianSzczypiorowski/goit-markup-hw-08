@@ -61,7 +61,7 @@
           <h1 class="main-heading">
             EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU
           </h1>
-          <button type="button" class="button"><b>Zamów usługe</b></button>
+          <button type="button" class="button" data-modal-open><b>Zamów usługe</b></button>
           </div>
          </div>
         </div>
@@ -138,13 +138,15 @@
           <h2 class="middle-heading">Czym się zajmujemy</h2>
           <ul  class="middle-flex-section">
             <li>
+              <div class="middle-backdrop">Aplikacje Komputerowe</div>
               <img  
                 class="middle-image"
                 src="images/image1.jpg"
                 alt="Facet który programuje"
                 width="370"
                 height="294"
-              />
+              /> 
+             
             </li>
             <li>
               <img 
@@ -532,6 +534,12 @@
       </div>
     </div>
     </footer>
+
+      <div class="modal is-hidden" data-modal>
+      <div class="modal-window" data-modal><button type="button" class="modal-button" data-modal-close>X</button></div>
+      </div>
+
+    <script src="./js/modal.js"></script>
   </body>
 </html>
 
