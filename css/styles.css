@@ -491,8 +491,6 @@ img {
   gap: 30px;
   align-content: center;
   justify-content: center;
-
-  /* border: 1px solid black; */
 }
 .list-description {
   font-family: "Roboto";
