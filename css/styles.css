@@ -772,3 +772,135 @@ img {
     scale: 1;
   }
 }
+form {
+  display: flex;
+  flex-direction: column;
+  /* gap: 10px; */
+  align-items: center;
+  justify-content: center;
+}
+label {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.modal-form-input {
+  width: 448px;
+  height: 40px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  margin-bottom: 10px;
+  padding-left: 42px;
+  transition: 250ms;
+}
+.modal-form-name {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.01em;
+  color: var(--text-color);
+}
+.form-name {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--header-color);
+  margin-top: 40px;
+  margin-bottom: 12px;
+}
+.feedback {
+  resize: none;
+}
+.feedback-content {
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  width: 448px;
+  height: 120px;
+  resize: none;
+  padding: 12px 16px;
+  transition: 250ms;
+}
+.modal-svg-person {
+  position: absolute;
+  left: 52px;
+  top: 104px;
+  width: 18px;
+  height: 18px;
+  transition: 250ms;
+}
+.modal-svg-phone {
+  position: absolute;
+  left: 52px;
+  top: 172px;
+  width: 18px;
+  height: 18px;
+  transition: 250ms;
+}
+.modal-svg-mail {
+  position: absolute;
+  left: 52px;
+  top: 240px;
+  width: 18px;
+  height: 18px;
+  transition: 250ms;
+}
+.modal-submit {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  color: var(--adress-color);
+  background-color: var(--focus-color);
+  width: 200px;
+  height: 50px;
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  margin-bottom: 40px;
+}
+.policy {
+  display: flex;
+  flex-direction: row;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.modal-form-input:hover + svg {
+  fill: var(--focus-color);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal-form-input:focus + svg {
+  fill: var(--focus-color);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-form-input:focus,
+.modal-form-input:hover {
+  border: 1px solid #2196f3;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.feedback-content:hover,
+.ffeedback-content:focus {
+  border: 1px solid #2196f3;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
