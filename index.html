@@ -536,6 +536,18 @@
           
         </div>
          </div> 
+         <div>
+          <form class="footer-form">
+              <label class="footer-mail-text">
+                Zapisz się do newslettera
+                <input  class="footer-mail" type="email"  name="footer-mail" placeholder="E-mail" />
+              </label>
+              <button class="footer-button"  type="submit">Zapisz się<svg class="newsletter-svg"><use href="./images/icons.svg#icon-send" ></use></svg></button>
+
+
+
+            </form>
+          </div>
         </div>
       </div>
     </div>
@@ -548,21 +560,21 @@
         <form class="signup-form" autocomplete="on" novalidate>
           <label class="modal-form-name">
             Imię
-          <input  class="modal-form-input" class="es" type="text" name="name" required/>
+          <input  class="modal-form-input" class="es" type="text" name="name" />
           <svg class="modal-svg-person">
             <use class="em" width="18px" height="18px" href="./images/icons.svg#modal-person" ></use>
           </svg>
         </label>
         <label class="modal-form-name">
           Telefon
-          <input class="modal-form-input" type="tel" name="tel" required/>
+          <input class="modal-form-input" type="tel" name="tel" />
           <svg class="modal-svg-phone">
             <use width="18px" height="18px" href="./images/icons.svg#modal-phone" ></use>
           </svg>
         </label>
         <label class="modal-form-name">
           Email
-          <input class="modal-form-input" type="email" name="email" required/>
+          <input class="modal-form-input" type="email" name="email" />
           <svg class="modal-svg-mail">
             <use width="18px" height="18px" href="./images/icons.svg#modal-mail" ></use>
           </svg>
@@ -571,21 +583,13 @@
           Komentarz
         <textarea class="feedback-content" placeholder="Wprowadź tekst"></textarea>
       </label>
-      <label class="policy" for="modal-policy">
-        <input class="modal-form-policy" type="checkbox" id="modal-policy"/>
-        Oświadczam iż akceptuję <a href="#">Regulamin</a> i <a href="#">Politykę Prywatności.</a>
-      </label>
-        
       
-
-      <button class="modal-submit" type="submit">Wyślij</button>
-
-        
-       
-        
-
-
-        </form>
+        <div class="policy-flex">
+        <input class="modal-form-policy visually-hidden" type="checkbox" id="modal-policy"/>
+        <label class="policy" for="modal-policy">Oświadczam iż akceptuję <a class="policy-links" href="#">Regulamin</a> i <a class="policy-links" href="#">Politykę Prywatności.</a></label>
+        </div>
+        <button class="modal-submit" type="submit">Wyślij</button>
+    </form>
       </div>
       </div>
 
