@@ -1,0 +1,34 @@
+.about {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 30px;
+  margin: 0 auto;
+  align-content: center;
+  justify-content: center;
+}
+.about__svg {
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  background-color: var(--svg-background);
+  margin-bottom: 30px;
+  padding-top: 20px;
+  padding-left: 102px;
+}
+.about__heading {
+  margin-bottom: 10px;
+  color: var(--header-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  width: 270px;
+  height: 16px;
+}
+.about__text {
+  font-size: 14px;
+  line-height: 1.7;
+  width: 270px;
+  height: 75px;
+  letter-spacing: 0.02em;
+}

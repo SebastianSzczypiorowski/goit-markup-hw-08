@@ -1,0 +1,28 @@
+.heading {
+  background: var(--background-color);
+  margin: 0px;
+}
+.heading__image {
+  background-color: var(--background-color);
+  background-image: linear-gradient(var(--gradient), var(--gradient)),
+    url(../images/image17.jpg);
+  background-repeat: no-repeat;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.heading__button {
+  left: 700px;
+  top: 430px;
+  text-align: center;
+  margin: 0 auto;
+  color: var(--adress-color);
+  font-size: 16px;
+  width: 200px;
+  height: 50px;
+  background: var(--focus-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+}
