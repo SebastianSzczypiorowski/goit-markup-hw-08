@@ -8,7 +8,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -24,20 +24,20 @@
         <nav>
           <ul class="navigation">
             <li>
-              <a class="navigation__item" href="./index.html">Agencja</a>
+              <a class="navigation__name" href="./index.html">Agencja</a>
             </li>
             <li>
-              <a class="navigation__item navigation__item-underline" href="./portfolio.html">Portfolio</a>
+              <a class="navigation__name navigation__name-underline" href="./portfolio.html">Portfolio</a>
             </li>
             <li>
-              <a class="navigation__item" href="./index.html">Kontakt</a>
+              <a class="navigation__name" href="./index.html">Kontakt</a>
             </li>
           </ul>
         </nav>
         <div class="contact"> 
-          <a class="contact__item" href="mailto:info@devstudio.com"><svg class="contact__svg-margin" height="17" width="16">
+          <a class="contact__link" href="mailto:info@devstudio.com"><svg class="contact__svg-margin" height="17" width="16">
             <use class="contact__svg" xlink:href="./images/icons.svg#envelope"></use></svg>info@devstudio.com</a>
-          <a class="contact__item" href="tel:+48111111111"><svg class="contact__svg-margin" height="15" width="16">
+          <a class="contact__link" href="tel:+48111111111"><svg class="contact__svg-margin" height="15" width="16">
             <use class="contact__svg" xlink:href="./images/icons.svg#smartphone"></use></svg
           ></use></svg>+48 111 111 111</a>
         </div>
@@ -47,11 +47,11 @@
      <main>
       <div class="container">
           <ul class="buttons">
-            <li><button class="buttons__item" type="button">Wszystkie</button></li>
-            <li><button class="buttons__item" type="button">Strony</button></li>
-            <li><button class="buttons__item" type="button">Aplikacje</button></li>
-            <li><button class="buttons__item" type="button">Dizajn</button></li>
-            <li><button class="buttons__item" type="button">Marketing</button></li>
+            <li><button class="buttons__button" type="button">Wszystkie</button></li>
+            <li><button class="buttons__button" type="button">Strony</button></li>
+            <li><button class="buttons__button" type="button">Aplikacje</button></li>
+            <li><button class="buttons__button" type="button">Dizajn</button></li>
+            <li><button class="buttons__button" type="button">Marketing</button></li>
           </ul>
       </div>
 
@@ -231,9 +231,9 @@
           <div class="footer__container">
            <a href="/index.html" class="logo__footer"><h3><span class="logo__header-studio">Web</span>Studio</h3></a>
            <address class="address">
-             <p class="address__item address__item-address">m. Warszawa, Aleje Jerozolimskie 21</p>
-             <p><a class="address__item" href="mailto:info@example.com">info@devstudio.com</a></p>
-             <p><a class="address__item" href="tel:+48111111111">+48 111 111 111</a>
+             <p class="address__link address__link-address">m. Warszawa, Aleje Jerozolimskie 21</p>
+             <p><a class="address__link" href="mailto:info@example.com">info@devstudio.com</a></p>
+             <p><a class="address__link" href="tel:+48111111111">+48 111 111 111</a>
            </address>
            </div>
            <div class="socialmedia footer__element">
@@ -245,7 +245,7 @@
            href="https://instagram.com"
            target="_blank"
            rel="noreferrer noopener"
-           class="socialmedia__item">
+           class="socialmedia__link">
            <svg width="20" height="20">
              <use xlink:href="./images/icons.svg#instagram"></use>
            </svg>
@@ -256,7 +256,7 @@
              href="https://facebook.com"
              target="_blank"
              rel="noreferrer noopener"
-             class="socialmedia__item">
+             class="socialmedia__link">
              <svg width="20" height="20">
                <use xlink:href="./images/icons.svg#facebook"></use></svg></a>
          </li>
@@ -265,7 +265,7 @@
            href="https://twitter.com"
            target="_blank"
            rel="noreferrer noopener"
-           class="socialmedia__item">
+           class="socialmedia__link">
            <svg width="20" height="20">
              <use xlink:href="./images/icons.svg#twitter"></use></svg
          ></a>
@@ -275,7 +275,7 @@
             href="https://linkedin.com"
             target="_blank"
             rel="noreferrer noopener"
-            class="socialmedia__item">
+            class="socialmedia__link">
             <svg width="20" height="20">
               <use xlink:href="./images/icons.svg#linkedin"></use></svg
           ></a>
