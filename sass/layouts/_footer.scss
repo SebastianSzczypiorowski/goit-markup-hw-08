@@ -11,14 +11,7 @@
   flex-direction: column;
   gap: 9px;
 }
-.address__link-address {
-  font-family: "Roboto";
-  font-size: 14px;
-  line-height: 1.7;
-  letter-spacing: 0.03em;
-  color: var(--adress-color);
-  font-style: normal;
-}
+
 .address__link {
   margin-left: 15px;
   font-family: "Roboto";
@@ -34,6 +27,14 @@
   &:focus {
     color: var(--focus-color);
   }
+}
+.address__link-address {
+  font-family: "Roboto";
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--adress-color);
+  font-style: normal;
 }
 
 .formulage {
