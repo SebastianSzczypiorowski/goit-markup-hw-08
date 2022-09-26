@@ -1,5 +1,5 @@
 .footer {
-  background-color: var(--background-color);
+  background-color: $background-color;
 }
 .footer__element {
   display: flex;
@@ -25,7 +25,7 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   &:hover,
   &:focus {
-    color: var(--focus-color);
+    color: $focus-color;
   }
 }
 .address__link-address {
@@ -33,7 +33,7 @@
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
-  color: var(--adress-color);
+  color: $adress-color;
   font-style: normal;
 }
 
@@ -60,7 +60,7 @@
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--adress-color);
+  color: $adress-color;
   transition: 250ms;
 }
 
@@ -71,8 +71,8 @@
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
-  background-color: var(--background-color);
-  color: var(--adress-color);
+  background-color: $background-color;
+  color: $adress-color;
 }
 .form__button {
   position: relative;
@@ -82,10 +82,10 @@
   padding-right: 76px;
   width: 200px;
   height: 50px;
-  background: var(--focus-color);
+  background: $focus-color;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  color: var(--adress-color);
+  color: $adress-color;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -101,7 +101,7 @@
   top: 13px;
   width: 24px;
   height: 24px;
-  fill: var(--adress-color);
+  fill: $adress-color;
 }
 .form__button-svg {
   position: absolute;
@@ -109,5 +109,5 @@
   top: 13px;
   width: 24px;
   height: 24px;
-  fill: var(--adress-color);
+  fill: $adress-color;
 }

@@ -24,7 +24,7 @@
   line-height: 23px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--header-color);
+  color: $header-color;
 }
 .modal__form-label {
   font-family: "Roboto";
@@ -33,7 +33,7 @@
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 0.01em;
-  color: var(--text-color);
+  color: $text-color;
 }
 .modal__form-input {
   margin-bottom: 10px;
@@ -50,18 +50,18 @@
     outline: none;
   }
   &:hover + svg {
-    fill: var(--focus-color);
+    fill: $focus-color;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     outline: none;
   }
   &:focus + svg {
-    fill: var(--focus-color);
+    fill: $focus-color;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     outline: none;
   }
 }
 .modal__policy-input:checked + .modal__policy-text::before {
-  background-color: #2196f3;
+  background-color: $focus-color;
   border: none;
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg width='16' height='15' viewBox='0 0 16 15' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='16' height='15' rx='2' fill='%232196F3'/%3E%3Cpath d='M3.95703 7.75166L3.88825 7.68604L3.81923 7.75141L2.93123 8.59258L2.85486 8.66492L2.93097 8.73753L6.42671 12.0724L6.49574 12.1382L6.56476 12.0724L14.069 4.91352L14.1449 4.84116L14.069 4.76881L13.1873 3.92764L13.1183 3.86183L13.0493 3.92761L6.49577 10.1735L3.95703 7.75166Z' fill='white' stroke='white' stroke-width='0.2'/%3E%3C/svg%3E");
 }
@@ -99,7 +99,7 @@
   transition: 250ms;
   &:hover,
   &:focus {
-    border: 1px solid #2196f3;
+    border: 1px solid $focus-color;
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
     outline: none;
   }
@@ -118,7 +118,7 @@
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color: var(--text-color);
+  color: $text-color;
   margin-top: 20px;
 }
 .modal__policy-text {
@@ -130,7 +130,7 @@
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color: var(--text-color);
+  color: $text-color;
   margin-top: 20px;
   margin-bottom: 30px;
   &::before {
@@ -147,13 +147,13 @@
 }
 
 .modal__policy-links {
-  color: var(--focus-color);
+  color: $focus-color;
 }
 .modal__policy-button {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--focus-color);
+  background-color: $focus-color;
   width: 200px;
   height: 50px;
   border: none;
@@ -161,7 +161,7 @@
   text-align: center;
   letter-spacing: 0.06em;
   cursor: pointer;
-  color: var(--adress-color);
+  color: $adress-color;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
