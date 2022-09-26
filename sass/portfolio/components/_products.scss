@@ -52,10 +52,10 @@
   height: 100%;
   background: rgba(33, 150, 243, 0.9);
   z-index: 12;
-  font-family: "Roboto";
+  font-family: $roboto;
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
+  font-size: $portfolio-figaption-font;
   line-height: 28px;
   letter-spacing: 0.03em;
   color: $adress-color;
@@ -65,9 +65,9 @@
 }
 .figcaption__name {
   margin: 20px 24px 4px 24px;
-  font-family: "Roboto";
+  font-family: $roboto;
   font-weight: 700;
-  font-size: 18px;
+  font-size: $portfolio-figaption-font;
   line-height: 2;
   letter-spacing: 0.06em;
   color: $header-color;
@@ -75,8 +75,8 @@
 .figcaption__function {
   margin-left: 24px;
   margin-bottom: 20px;
-  font-family: "Roboto";
-  font-size: 16px;
+  font-family: $roboto;
+  font-size: $button-font;
   line-height: 1.9;
   letter-spacing: 0.03em;
   color: $text-color;

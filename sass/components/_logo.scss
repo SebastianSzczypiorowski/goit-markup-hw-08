@@ -2,10 +2,10 @@
   margin: 24px 93px 25px 15px;
 }
 .logo__header {
-  font-family: "Raleway";
+  font-family: $raleway;
   font-style: normal;
   font-weight: 700;
-  font-size: 26px;
+  font-size: $logo-font;
   line-height: 1.2;
   letter-spacing: 0.03em;
   text-decoration: none;
@@ -18,9 +18,9 @@
 }
 .logo__footer {
   margin-left: 15px;
-  font-family: "Raleway";
+  font-family: $raleway;
   font-weight: 700;
-  font-size: 26px;
+  font-size: $logo-font;
   line-height: 1.2;
   letter-spacing: 0.03em;
   color: $adress-color;

@@ -4,10 +4,10 @@
 
 .clients__header {
   margin-bottom: 50px;
-  font-family: "Roboto";
+  font-family: $roboto;
   font-style: normal;
   font-weight: 700;
-  font-size: 36px;
+  font-size: $header-clients-font;
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;

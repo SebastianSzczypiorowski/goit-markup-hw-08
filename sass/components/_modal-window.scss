@@ -17,20 +17,20 @@
 .modal__heading {
   margin-top: 40px;
   margin-bottom: 12px;
-  font-family: "Roboto";
+  font-family: $roboto;
   font-style: normal;
   font-weight: 700;
-  font-size: 20px;
+  font-size: $heading-font;
   line-height: 23px;
   text-align: center;
   letter-spacing: 0.03em;
   color: $header-color;
 }
 .modal__form-label {
-  font-family: "Roboto";
+  font-family: $roboto;
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
+  font-size: $label-font;
   line-height: 14px;
   letter-spacing: 0.01em;
   color: $text-color;
@@ -112,10 +112,10 @@
   align-items: center;
 }
 .modal__policy-input {
-  font-family: "Roboto";
+  font-family: $roboto;
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: $text-font;
   line-height: 24px;
   letter-spacing: 0.03em;
   color: $text-color;
@@ -124,10 +124,10 @@
 .modal__policy-text {
   display: flex;
   flex-direction: row;
-  font-family: "Roboto";
+  font-family: $roboto;
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: $text-font;
   line-height: 24px;
   letter-spacing: 0.03em;
   color: $text-color;
@@ -162,10 +162,10 @@
   letter-spacing: 0.06em;
   cursor: pointer;
   color: $adress-color;
-  font-family: "Roboto";
+  font-family: $roboto;
   font-style: normal;
   font-weight: 700;
-  font-size: 16px;
+  font-size: $button-font;
   line-height: 30px;
   border-radius: 4px;
   margin-bottom: 40px;

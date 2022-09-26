@@ -7,9 +7,9 @@
 }
 
 .team__heading {
-  font-family: "Roboto";
+  font-family: $roboto;
   font-weight: 700;
-  font-size: 36px;
+  font-size: $header-clients-font;
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
@@ -39,17 +39,17 @@
 .team__list-name {
   margin-top: 30px;
   margin-bottom: 10px;
-  font-family: "Roboto";
+  font-family: $roboto;
   font-weight: 500;
-  font-size: 16px;
+  font-size: $button-font;
   line-height: 19px;
   text-align: center;
   letter-spacing: 0.03em;
   color: $header-color;
 }
 .team__list-function {
-  font-family: "Roboto";
-  font-size: 16px;
+  font-family: $roboto;
+  font-size: $button-font;
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
