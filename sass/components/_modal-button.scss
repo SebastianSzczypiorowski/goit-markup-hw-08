@@ -1,3 +1,19 @@
+@media screen and (min-width: 480px) {
+  .modal__button {
+    position: absolute;
+    left: 412px;
+    top: 8px;
+    z-index: 12;
+    background-color: #ffffff;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+  }
+}
 @media screen and (min-width: 1200px) {
   .modal__button {
     position: absolute;

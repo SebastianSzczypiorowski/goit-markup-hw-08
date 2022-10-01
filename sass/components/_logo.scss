@@ -13,6 +13,7 @@
     color: $focus-color;
   }
   .logo__footer {
+    text-align: center;
     font-family: $raleway;
     font-weight: 700;
     font-size: $logo-font;
@@ -20,6 +21,8 @@
     letter-spacing: 0.03em;
     color: $adress-color;
     text-decoration: none;
+    width: 154px;
+    height: 28px;
   }
 }
 
