@@ -1,28 +1,55 @@
-.logo {
-  margin: 24px 93px 25px 15px;
+@media screen and (min-width: 480px) {
+  .logo__header {
+    font-family: $raleway;
+    font-style: normal;
+    font-weight: 700;
+    font-size: $logo-font;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: $header-color;
+  }
+  .logo__header-studio {
+    color: $focus-color;
+  }
+  .logo__footer {
+    font-family: $raleway;
+    font-weight: 700;
+    font-size: $logo-font;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: $adress-color;
+    text-decoration: none;
+  }
 }
-.logo__header {
-  font-family: $raleway;
-  font-style: normal;
-  font-weight: 700;
-  font-size: $logo-font;
-  line-height: 1.2;
-  letter-spacing: 0.03em;
-  text-decoration: none;
-  color: $header-color;
-  width: 145px;
-  height: 31px;
-}
-.logo__header-studio {
-  color: $focus-color;
-}
-.logo__footer {
-  margin-left: 15px;
-  font-family: $raleway;
-  font-weight: 700;
-  font-size: $logo-font;
-  line-height: 1.2;
-  letter-spacing: 0.03em;
-  color: $adress-color;
-  text-decoration: none;
+
+@media screen and (min-width: 1200px) {
+  .logo {
+    margin: 24px 93px 25px 15px;
+  }
+  .logo__header {
+    font-family: $raleway;
+    font-style: normal;
+    font-weight: 700;
+    font-size: $logo-font;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: $header-color;
+    width: 145px;
+    height: 31px;
+  }
+  .logo__header-studio {
+    color: $focus-color;
+  }
+  .logo__footer {
+    margin-left: 15px;
+    font-family: $raleway;
+    font-weight: 700;
+    font-size: $logo-font;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: $adress-color;
+    text-decoration: none;
+  }
 }

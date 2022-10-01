@@ -1,35 +1,72 @@
-.container {
-  width: 1200px;
-  margin: 0 auto;
-  display: block;
+@media screen and (min-width: 480px) {
+  .container {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+  }
+  .header__container {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 23px;
+    height: 60px;
+  }
+  .heading__container {
+    padding-top: 118px;
+    padding-bottom: 118px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 30px;
+  }
+  .footer__container {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
 }
-.header__container {
-  display: flex;
-  flex-direction: row;
-  margin: 0 auto;
-  align-content: center;
-  justify-content: center;
-}
-.heading__container {
-  padding-top: 200px;
-  padding-bottom: 200px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: 0 auto;
-  gap: 30px;
-}
-.clients__container {
-  width: 1200px;
-  margin: 0 auto;
-  display: block;
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-.footer__container {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+    margin: 0 auto;
+    display: block;
+  }
+  .header__container {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    align-content: center;
+    justify-content: center;
+  }
+  .heading__container {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 30px;
+  }
+  .clients__container {
+    width: 1200px;
+    margin: 0 auto;
+    display: block;
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+  .footer__container {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
 }

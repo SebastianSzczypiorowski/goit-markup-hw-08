@@ -1,12 +1,28 @@
-.page__header {
-  color: $adress-color;
-  font-family: $roboto;
-  font-weight: 900;
-  font-size: $page-header-font;
-  line-height: 1.4;
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  width: 696px;
-  margin: 0 auto;
+@media screen and (min-width: 480px) {
+  .page__header {
+    color: $adress-color;
+    font-family: $roboto;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    width: 365px;
+    margin: 0 auto;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .page__header {
+    color: $adress-color;
+    font-family: $roboto;
+    font-weight: 900;
+    font-size: $page-header-font;
+    line-height: 1.4;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    width: 696px;
+    margin: 0 auto;
+  }
 }
