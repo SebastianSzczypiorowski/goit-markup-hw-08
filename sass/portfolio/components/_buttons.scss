@@ -2,16 +2,18 @@
   .buttons {
     display: flex;
     flex-wrap: wrap;
-    flex-basis: calc(100% / 2);
+    flex-basis: calc(100% / 3);
     gap: 8px;
-    justify-content: center;
-    align-content: center;
+    justify-content: flex-start;
+    align-content: flex-start;
     margin-top: 94px;
     margin-bottom: 0px;
   }
-
+  .button__margin {
+    margin-left: 15px;
+  }
   .buttons__button {
-    width: 93px;
+    width: 120px;
     height: 38px;
     left: 639px;
     top: 174px;
@@ -19,7 +21,7 @@
     background: $background-secondary;
     font-family: $roboto;
     font-weight: 500;
-    font-size: $button-font;
+    font-size: 16px;
     line-height: 1.6;
     text-align: center;
     letter-spacing: 0.03em;
@@ -49,7 +51,9 @@
     margin-top: 94px;
     margin-bottom: 0px;
   }
-
+  .button__margin {
+    margin-left: 0px;
+  }
   .buttons__button {
     width: 93px;
     height: 38px;

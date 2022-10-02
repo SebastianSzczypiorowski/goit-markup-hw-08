@@ -1,16 +1,16 @@
 @media screen and (min-width: 480px) {
-  .header-border {
-    border-bottom: 1px solid var(--header-border);
+  .menu__svg {
+    width: 23px;
+    height: 16px;
+  }
+  .header__border {
+    border-bottom: 1px solid $header-color;
   }
   .navigation {
     display: none;
   }
   .contact {
     display: none;
-  }
-  .menu__svg {
-    width: 23px;
-    height: 16px;
   }
 }
 

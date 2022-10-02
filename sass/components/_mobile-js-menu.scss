@@ -1,0 +1,13 @@
+@media screen and (min-width: 480px) {
+  .js-menu-container {
+    width: 100px;
+    height: 100px;
+    transform: translateX(500px);
+    transition: transform 1s;
+    background-color: aliceblue;
+    z-index: 100;
+  }
+  .is-open {
+    transform: translateX(0);
+  }
+}
