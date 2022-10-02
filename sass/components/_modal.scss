@@ -1,4 +1,22 @@
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 480px) {
+  .modal {
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+    transition: cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition-duration: 1000ms;
+  }
+  .is-hidden {
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+  }
+}
+@media screen and (max-width: 768px) {
   .modal {
     position: fixed;
     left: 0;

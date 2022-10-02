@@ -1,4 +1,65 @@
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 480px) {
+  .team__socials-link {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    fill: $svg-color;
+    background-color: $adress-color;
+    margin-top: 16px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+      background-color: $focus-color;
+      fill: $adress-color;
+    }
+  }
+
+  .socialmedia__svg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  .socialmedia__header {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $adress-color;
+  }
+  .socialmedia__links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  .socialmedia__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    fill: $adress-color;
+    background-color: $svg-color-footer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+      background-color: $focus-color;
+    }
+  }
+}
+@media screen and (max-width: 768px) {
   .team__socials-link {
     display: flex;
     flex-direction: row;
