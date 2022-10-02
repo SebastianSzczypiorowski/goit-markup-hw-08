@@ -83,11 +83,20 @@
   .socialmedia__svg {
     display: flex;
     flex-direction: column;
+    margin: 0;
+    padding: 0px;
     gap: 10px;
-    margin-top: 72px;
-    margin-left: 70px;
+    text-align: left;
+    margin-left: 0px;
+    margin-top: 0px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 74px;
   }
   .socialmedia__header {
+    padding-left: 0px;
+    text-align: left;
+
     font-family: "Roboto";
     font-style: normal;
     font-weight: 700;
@@ -102,7 +111,7 @@
     align-items: center;
     justify-content: center;
     gap: 10px;
-    margin-top: 20px;
+    margin-top: 10px;
   }
   .socialmedia__link {
     display: flex;

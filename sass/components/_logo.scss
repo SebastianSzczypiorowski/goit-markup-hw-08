@@ -28,13 +28,13 @@
 
 @media screen and (min-width: 1200px) {
   .logo {
-    margin: 24px 93px 25px 15px;
+    margin: 24px 93px 30px 15px;
   }
   .logo__header {
     font-family: $raleway;
     font-style: normal;
     font-weight: 700;
-    font-size: $logo-font;
+    font-size: 26px;
     line-height: 1.2;
     letter-spacing: 0.03em;
     text-decoration: none;
@@ -46,7 +46,8 @@
     color: $focus-color;
   }
   .logo__footer {
-    margin-left: 15px;
+    text-align: left;
+    padding: 0;
     font-family: $raleway;
     font-weight: 700;
     font-size: $logo-font;
@@ -54,5 +55,9 @@
     letter-spacing: 0.03em;
     color: $adress-color;
     text-decoration: none;
+    margin-left: 0px;
+    width: 145px;
+    height: 31px;
+    padding-left: 28px;
   }
 }

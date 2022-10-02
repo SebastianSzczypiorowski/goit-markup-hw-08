@@ -127,6 +127,7 @@
     margin: 0 auto;
     align-content: center;
     justify-content: center;
+    height: 80px;
   }
   .heading__container {
     padding-top: 200px;
@@ -150,6 +151,10 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+    text-align: left;
+    padding-left: 0px;
+    margin-left: 0px;
+    align-items: flex-start;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -187,7 +192,7 @@
 }
 @media screen and (min-width: 1200px) {
   .logo {
-    margin: 24px 93px 25px 15px;
+    margin: 24px 93px 30px 15px;
   }
   .logo__header {
     font-family: "Raleway";
@@ -205,7 +210,8 @@
     color: #2196f3;
   }
   .logo__footer {
-    margin-left: 15px;
+    text-align: left;
+    padding: 0;
     font-family: "Raleway";
     font-weight: 700;
     font-size: 26px;
@@ -213,6 +219,10 @@
     letter-spacing: 0.03em;
     color: #ffffff;
     text-decoration: none;
+    margin-left: 0px;
+    width: 145px;
+    height: 31px;
+    padding-left: 28px;
   }
 }
 @media screen and (min-width: 480px) {
@@ -325,11 +335,19 @@
   .socialmedia__svg {
     display: flex;
     flex-direction: column;
+    margin: 0;
+    padding: 0px;
     gap: 10px;
-    margin-top: 72px;
-    margin-left: 70px;
+    text-align: left;
+    margin-left: 0px;
+    margin-top: 0px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 74px;
   }
   .socialmedia__header {
+    padding-left: 0px;
+    text-align: left;
     font-family: "Roboto";
     font-style: normal;
     font-weight: 700;
@@ -344,7 +362,7 @@
     align-items: center;
     justify-content: center;
     gap: 10px;
-    margin-top: 20px;
+    margin-top: 10px;
   }
   .socialmedia__link {
     display: flex;
@@ -425,14 +443,11 @@
   }
 }
 @media screen and (min-width: 1200px) {
-  .header-border {
-    border-bottom: 1px solid var(--header-border);
-  }
   .menu__svg {
     display: none;
   }
-  .menu__svg:focus {
-    fill: #2196f3;
+  .header__border {
+    border-bottom: 1px solid #212121;
   }
   .navigation {
     display: flex;
@@ -442,7 +457,7 @@
     flex-direction: row;
     gap: 46px;
     padding-top: 32px;
-    padding-bottom: 32px;
+    padding-bottom: 25px;
   }
   .navigation__name {
     position: relative;
@@ -470,14 +485,14 @@
     height: 4px;
     background-color: #2196f3;
     border-radius: 2px;
-    top: 46px;
+    top: 42px;
     display: block;
   }
   .contact {
     display: flex;
     flex-direction: row;
     gap: 50px;
-    margin: 32px 15px 32px auto;
+    margin: 32px 15px 30px auto;
     align-content: center;
     justify-content: center;
   }
@@ -788,11 +803,11 @@
     align-items: center;
     justify-content: center;
   }
-  .image__team {
+  .team__image {
     width: 450px;
     height: 460px;
   }
-  .team__image {
+  .team__card {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -849,7 +864,7 @@
     gap: 30px;
     margin: 0 auto;
   }
-  .team__image {
+  .team__card {
     width: 270px;
     height: 428px;
     left: 215px;
@@ -857,6 +872,10 @@
     background: #ffffff;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
+  }
+  .team__image {
+    width: 270px;
+    height: 260px;
   }
   .team__list-name {
     margin-top: 30px;
@@ -1071,14 +1090,17 @@
   .footer__element {
     display: flex;
     flex-direction: row;
+    margin-left: 70px;
+    margin-right: 77px;
   }
   .address {
     display: flex;
     flex-direction: column;
+    text-align: left;
     gap: 9px;
   }
   .address__link {
-    margin-left: 15px;
+    margin-left: 28px;
     font-family: "Roboto";
     font-size: 14px;
     line-height: 1.7;
@@ -1093,12 +1115,14 @@
     color: #2196f3;
   }
   .address__link-address {
+    text-align: left;
     font-family: "Roboto";
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
     color: #ffffff;
     font-style: normal;
+    padding: 0;
   }
   .formulage {
     display: flex;
@@ -1107,11 +1131,14 @@
   .form {
     display: flex;
     flex-direction: row;
+    align-items: flex-start;
+    text-align: left;
+    padding-left: 0px;
   }
   .form__header {
     gap: 10px;
     padding-top: 72px;
-    margin-left: 78px;
+    margin-left: 0px;
     margin-top: 0px;
     padding-bottom: 0px;
     font-family: "Roboto";

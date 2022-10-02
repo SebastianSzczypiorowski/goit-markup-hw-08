@@ -15,15 +15,13 @@
 }
 
 @media screen and (min-width: 1200px) {
-  .header-border {
-    border-bottom: 1px solid var(--header-border);
-  }
   .menu__svg {
     display: none;
-    &:focus {
-      fill: $focus-color;
-    }
   }
+  .header__border {
+    border-bottom: 1px solid $header-color;
+  }
+
   .navigation {
     display: flex;
     align-content: center;
@@ -32,7 +30,7 @@
     flex-direction: row;
     gap: 46px;
     padding-top: 32px;
-    padding-bottom: 32px;
+    padding-bottom: 25px;
   }
 
   .navigation__name {
@@ -63,14 +61,14 @@
     height: 4px;
     background-color: $focus-color;
     border-radius: 2px;
-    top: 46px;
+    top: 42px;
     display: block;
   }
   .contact {
     display: flex;
     flex-direction: row;
     gap: 50px;
-    margin: 32px 15px 32px auto;
+    margin: 32px 15px 30px auto;
     align-content: center;
     justify-content: center;
   }
