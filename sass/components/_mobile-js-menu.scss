@@ -1,124 +1,122 @@
-@media screen and (min-width: 480px) {
-  .js-menu-container {
-    display: none;
-    position: fixed;
-    left: 0px;
-    top: 0px;
-    width: 100%;
-    height: 100%;
-    transform: translateX(5000px);
-    transition: transform 1s;
-    background-color: #ffffff;
-    z-index: 100;
+.js-menu-container {
+  display: none;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  transform: translateX(5000px);
+  transition: transform 1s;
+  background-color: #ffffff;
+  z-index: 100;
+}
+.is-open {
+  display: block;
+  transform: translateX(0);
+}
+.mobile__menu-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 16px;
+  height: 16px;
+  fill: black;
+}
+.mobile__svg-focus:hover,
+.mobile__svg-focus:focus {
+  fill: $focus-color;
+}
+.mobile__navigation {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  gap: 32px;
+  margin-top: 46px;
+  margin-left: 40px;
+}
+.mobile__navigation-name {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 47px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  text-align: left;
+
+  color: #212121;
+  transition: color 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:focus,
+  &:hover {
+    color: $focus-color;
   }
-  .is-open {
-    display: block;
-    transform: translateX(0);
+}
+.mobile__contact {
+  display: flex;
+  flex-direction: column;
+  margin-top: 456px;
+  gap: 32px;
+  align-content: center;
+  justify-content: center;
+}
+.mobile__contact-phone {
+  font-family: $roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 40px;
+  text-decoration: none;
+  letter-spacing: 0.02em;
+  color: $focus-color;
+  margin-left: 40px;
+}
+.mobile__contact-mail {
+  display: flex;
+  align-items: center;
+  font-family: $roboto;
+  color: $text-color;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  margin-left: 40px;
+  transition: color 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    color: $focus-color;
   }
-  .mobile__menu-button {
-    position: absolute;
-    width: 16px;
-    height: 16px;
-    fill: black;
-    left: 446px;
-    top: 21px;
-  }
-  .mobile__svg-focus:hover,
-  .mobile__svg-focus:focus {
+  &:hover .contact__svg {
     fill: $focus-color;
   }
-  .mobile__navigation {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-
-    gap: 32px;
-    margin-top: 46px;
-    margin-left: 40px;
+  &:focus .contact__svg {
+    fill: $focus-color;
   }
-  .mobile__navigation-name {
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 40px;
-    line-height: 47px;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-decoration: none;
-    text-align: left;
-
-    color: #212121;
-    transition: color 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    &:focus,
-    &:hover {
-      color: $focus-color;
-    }
-  }
-  .mobile__contact {
-    display: flex;
-    flex-direction: column;
-    margin-top: 456px;
-    gap: 32px;
-    align-content: center;
-    justify-content: center;
-  }
-  .mobile__contact-phone {
-    font-family: $roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 34px;
-    line-height: 40px;
-    text-decoration: none;
-    letter-spacing: 0.02em;
-    color: $focus-color;
-    margin-left: 40px;
-  }
-  .mobile__contact-mail {
-    display: flex;
-    align-items: center;
-    font-family: $roboto;
-    color: $text-color;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 28px;
-    letter-spacing: 0.02em;
-    text-decoration: none;
-    margin-left: 40px;
-    transition: color 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    &:hover,
-    &:focus {
-      color: $focus-color;
-    }
-    &:hover .contact__svg {
-      fill: $focus-color;
-    }
-    &:focus .contact__svg {
-      fill: $focus-color;
-    }
-  }
-  .mobile__socials {
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    margin-left: 40px;
-    margin-top: 32px;
-    margin-bottom: 46px;
-    text-decoration: none;
-  }
-  .mobile__socials-link {
-    text-decoration: none;
-    font-family: "Roboto";
-    color: $focus-color;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 22px;
-    letter-spacing: 0.02em;
-    padding-right: 10px;
-  }
-  .mobile__socials-link:not(:last-child) {
-    border-right: 1px solid rgba(33, 33, 33, 0.2);
-  }
+}
+.mobile__socials {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-left: 40px;
+  margin-top: 32px;
+  margin-bottom: 46px;
+  text-decoration: none;
+}
+.mobile__socials-link {
+  text-decoration: none;
+  font-family: "Roboto";
+  color: $focus-color;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.02em;
+  padding-right: 10px;
+}
+.mobile__socials-link:not(:last-child) {
+  border-right: 1px solid rgba(33, 33, 33, 0.2);
 }

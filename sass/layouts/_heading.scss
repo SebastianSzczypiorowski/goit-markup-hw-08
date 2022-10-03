@@ -1,38 +1,35 @@
-@media screen and (max-width: 480px) {
-  .heading {
-    background: $background-color;
-    margin: 0px;
-  }
-  .heading {
-    margin: 0px;
-  }
-  .heading__image {
-    background-color: $background-color;
-    background-image: linear-gradient($gradient, $gradient),
-      url(../images/mobile17.jpg);
-    background-repeat: no-repeat;
-    max-width: 1600px;
-    min-width: 480px;
-    margin: 0 auto;
-  }
-
-  .heading__button {
-    left: 700px;
-    top: 430px;
-    text-align: center;
-    margin: 0 auto;
-    color: $adress-color;
-    font-size: $button-font;
-    width: 200px;
-    height: 50px;
-    background: $focus-color;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    cursor: pointer;
-    border: none;
-  }
+.heading {
+  background: $background-color;
+  margin: 0px;
 }
-@media screen and (max-width: 768px) {
+.heading {
+  margin: 0px;
+}
+.heading__image {
+  background-color: $background-color;
+  background-image: linear-gradient($gradient, $gradient),
+    url(../images/mobile17.jpg);
+  background-repeat: no-repeat;
+  max-width: 768px;
+  margin: 0 auto;
+}
+
+.heading__button {
+  left: 700px;
+  top: 430px;
+  text-align: center;
+  margin: 0 auto;
+  color: $adress-color;
+  font-size: $button-font;
+  width: 200px;
+  height: 50px;
+  background: $focus-color;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+}
+@media screen and (min-width: 768px) {
   .heading {
     background: $background-color;
     margin: 0px;
@@ -43,10 +40,9 @@
   .heading__image {
     background-color: $background-color;
     background-image: linear-gradient($gradient, $gradient),
-      url(../images/mobile17.jpg);
+      url(../images/tablet17.jpg);
     background-repeat: no-repeat;
     max-width: 1600px;
-    min-width: 480px;
     margin: 0 auto;
   }
 

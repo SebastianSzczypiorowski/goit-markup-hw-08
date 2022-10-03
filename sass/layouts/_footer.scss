@@ -1,136 +1,135 @@
-@media screen and (max-width: 480px) {
-  .footer {
-    background-color: $background-color;
-    height: 603px;
-  }
-  .footer__element {
-    display: flex;
-    flex-direction: column;
-    // align-items: center;
-    // justify-content: center;
-    // width: 206px;
-    // height: 80px;
-    margin: 0 auto;
-  }
+.footer {
+  background-color: $background-color;
+  height: 603px;
+}
+.footer__element {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: calc(100% / 1);
+  // align-items: center;
+  // justify-content: center;
+  // width: 206px;
+  // height: 80px;
+  margin: 0 auto;
+}
 
-  .address {
-    display: flex;
-    flex-direction: column;
-    gap: 9px;
-  }
+.address {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
 
-  .address__link {
-    text-align: center;
+.address__link {
+  text-align: center;
 
-    font-family: $roboto;
-    font-size: $text-font;
-    line-height: 1.7;
-    letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
-    text-decoration: none;
-    font-style: normal;
-    transition: color 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    &:hover,
-    &:focus {
-      color: $focus-color;
-    }
-  }
-  .address__link-address {
-    font-family: $roboto;
-    font-size: $text-font;
-    line-height: 1.7;
-    letter-spacing: 0.03em;
-    color: $adress-color;
-    font-style: normal;
-    padding-left: 10px;
-  }
-
-  .form {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    margin-left: 0px;
-  }
-
-  .form__header {
-    gap: 20px;
-    padding-top: 60px;
-    font-family: $roboto;
-    font-style: normal;
-    font-weight: 700;
-    font-size: $text-font;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: $adress-color;
-    transition: 250ms;
-  }
-
-  .form__email {
-    padding-left: 16px;
-    width: 450px;
-    height: 50px;
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-    border-radius: 4px;
-    background-color: $background-color;
-    color: $adress-color;
-  }
-  .form__button {
-    position: relative;
-    margin-top: 20px;
-    padding-left: 42px;
-    padding-right: 76px;
-    width: 200px;
-    height: 50px;
-    background: $focus-color;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    color: $adress-color;
-    font-family: $roboto;
-    font-style: normal;
-    font-weight: 700;
-    font-size: $button-font;
-    line-height: 30px;
-    letter-spacing: 0.06em;
-    cursor: pointer;
-    border: none;
-  }
-  .newsletter-svg {
-    position: absolute;
-    left: 148px;
-    top: 13px;
-    width: 24px;
-    height: 24px;
-    fill: $adress-color;
-  }
-  .form__button-svg {
-    position: absolute;
-    left: 148px;
-    top: 13px;
-    width: 24px;
-    height: 24px;
-    fill: $adress-color;
+  font-family: $roboto;
+  font-size: $text-font;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  font-style: normal;
+  transition: color 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    color: $focus-color;
   }
 }
-@media screen and (max-width: 768px) {
+.address__link-address {
+  font-family: $roboto;
+  font-size: $text-font;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: $adress-color;
+  font-style: normal;
+  padding-left: 10px;
+}
+
+.form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-left: 0px;
+}
+
+.form__header {
+  gap: 20px;
+  padding-top: 60px;
+  font-family: $roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: $text-font;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: $adress-color;
+  transition: 250ms;
+}
+
+.form__email {
+  padding-left: 16px;
+  width: 450px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: $background-color;
+  color: $adress-color;
+}
+.form__button {
+  position: relative;
+  margin-top: 20px;
+  padding-left: 42px;
+  padding-right: 76px;
+  width: 200px;
+  height: 50px;
+  background: $focus-color;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: $adress-color;
+  font-family: $roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: $button-font;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  border: none;
+}
+.newsletter-svg {
+  position: absolute;
+  left: 148px;
+  top: 13px;
+  width: 24px;
+  height: 24px;
+  fill: $adress-color;
+}
+.form__button-svg {
+  position: absolute;
+  left: 148px;
+  top: 13px;
+  width: 24px;
+  height: 24px;
+  fill: $adress-color;
+}
+@media screen and (min-width: 768px) {
   .footer {
     background-color: $background-color;
-    height: 603px;
-  }
-  .footer__element {
     display: flex;
-    flex-direction: column;
-    // align-items: center;
-    // justify-content: center;
-    // width: 206px;
-    // height: 80px;
-    margin: 0 auto;
+    flex-direction: row;
   }
 
+  .footer__element {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-basis: calc(100% / 2);
+    margin-left: 76px;
+  }
   .address {
     display: flex;
     flex-direction: column;
@@ -165,8 +164,7 @@
   }
 
   .form {
-    display: flex;
-    flex-direction: row;
+    display: block;
     align-items: center;
     justify-content: center;
     text-align: center;

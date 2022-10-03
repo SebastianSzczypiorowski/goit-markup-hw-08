@@ -1,14 +1,12 @@
-@media screen and (max-width: 480px) {
-  .team__socials {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    margin-bottom: 30px;
-  }
+.team__socials {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 30px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   .team__socials {
     display: flex;
     flex-direction: row;

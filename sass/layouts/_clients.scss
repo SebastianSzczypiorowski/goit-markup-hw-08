@@ -1,49 +1,47 @@
-@media screen and (max-width: 480px) {
-  .clients {
-    margin-top: 60px;
-    background-color: $adress-color;
-    margin-bottom: 60px;
-  }
+.clients {
+  margin-top: 60px;
+  background-color: $adress-color;
+  margin-bottom: 60px;
+}
 
-  .clients__header {
-    margin-bottom: 50px;
-    font-family: $roboto;
-    font-style: normal;
-    font-weight: 700;
-    font-size: $header-clients-font;
-    line-height: 42px;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: $header-color;
-  }
-  .clients__list {
-    display: flex;
-    flex-wrap: wrap;
-    flex-basis: calc(100% / 2);
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
-    flex-wrap: wrap;
-  }
-  .clients__link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 210px;
-    height: 92px;
-    border: 1px solid $svg-color;
-    fill: $svg-color;
-    border-radius: 4px;
-    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1),
-      fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    &:hover,
-    &:focus {
-      fill: $focus-color;
-      border-color: $focus-color;
-    }
+.clients__header {
+  margin-bottom: 50px;
+  font-family: $roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: $header-clients-font;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: $header-color;
+}
+.clients__list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: calc(100% / 2);
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.clients__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 210px;
+  height: 92px;
+  border: 1px solid $svg-color;
+  fill: $svg-color;
+  border-radius: 4px;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    fill: $focus-color;
+    border-color: $focus-color;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   .clients {
     margin-top: 60px;
     background-color: $adress-color;
@@ -64,7 +62,7 @@
   .clients__list {
     display: flex;
     flex-wrap: wrap;
-    flex-basis: calc(100% / 2);
+    flex-basis: calc(100% / 3);
     align-items: center;
     justify-content: center;
     gap: 30px;
@@ -74,7 +72,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 210px;
+    width: 226px;
     height: 92px;
     border: 1px solid $svg-color;
     fill: $svg-color;

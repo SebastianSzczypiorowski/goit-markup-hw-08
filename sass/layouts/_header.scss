@@ -1,31 +1,29 @@
-@media screen and (max-width: 480px) {
-  .menu__svg {
-    width: 23px;
-    height: 16px;
-    .menu__svg-focus:hover,
-    .menu__svg-focus:focus {
-      fill: $focus-color;
-    }
+.menu__svg {
+  width: 23px;
+  height: 16px;
+  .menu__svg-focus:hover,
+  .menu__svg-focus:focus {
+    fill: $focus-color;
   }
-  .header__border {
-    border-bottom: 1px solid $header-color;
-  }
-  .navigation {
-    display: none;
-  }
-  .contact {
-    display: none;
-  }
-  .mobile__navigation {
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    gap: 46px;
-    padding-top: 32px;
-    padding-bottom: 25px;
-  }
+}
+.header__border {
+  border-bottom: 1px solid $header-color;
+}
+.navigation {
+  display: none;
+}
+.contact {
+  display: none;
+}
+.mobile__navigation {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 46px;
+  padding-top: 32px;
+  padding-bottom: 25px;
 }
 
 @media screen and (min-width: 768px) {
@@ -77,7 +75,7 @@
     height: 4px;
     background-color: $focus-color;
     border-radius: 2px;
-    top: 4px;
+    top: 41px;
     display: block;
   }
   .contact {

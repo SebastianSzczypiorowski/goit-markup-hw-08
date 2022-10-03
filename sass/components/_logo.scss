@@ -1,31 +1,30 @@
-@media screen and (max-width: 480px) {
-  .logo__header {
-    font-family: $raleway;
-    font-style: normal;
-    font-weight: 700;
-    font-size: $logo-font;
-    line-height: 1.2;
-    letter-spacing: 0.03em;
-    text-decoration: none;
-    color: $header-color;
-  }
-  .logo__header-studio {
-    color: $focus-color;
-  }
-  .logo__footer {
-    text-align: center;
-    font-family: $raleway;
-    font-weight: 700;
-    font-size: $logo-font;
-    line-height: 1.2;
-    letter-spacing: 0.03em;
-    color: $adress-color;
-    text-decoration: none;
-    width: 154px;
-    height: 28px;
-  }
+.logo__header {
+  font-family: $raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: $logo-font;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: $header-color;
 }
-@media screen and (max-width: 768px) {
+.logo__header-studio {
+  color: $focus-color;
+}
+.logo__footer {
+  text-align: center;
+  font-family: $raleway;
+  font-weight: 700;
+  font-size: $logo-font;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: $adress-color;
+  text-decoration: none;
+  width: 154px;
+  height: 28px;
+}
+
+@media screen and (min-width: 768px) {
   .logo__header {
     font-family: $raleway;
     font-style: normal;
