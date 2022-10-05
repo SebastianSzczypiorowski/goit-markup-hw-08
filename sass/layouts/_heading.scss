@@ -8,9 +8,9 @@
 .heading__image {
   background-color: $background-color;
   background-image: linear-gradient($gradient, $gradient),
-    url(../images/mobile17.jpg);
+    url(../images/image17.jpg);
   background-repeat: no-repeat;
-  max-width: 768px;
+  background-position: cover;
   margin: 0 auto;
 }
 
@@ -40,9 +40,9 @@
   .heading__image {
     background-color: $background-color;
     background-image: linear-gradient($gradient, $gradient),
-      url(../images/tablet17.jpg);
+      url(../images/image17.jpg);
     background-repeat: no-repeat;
-    max-width: 1600px;
+    background-position: cover;
     margin: 0 auto;
   }
 

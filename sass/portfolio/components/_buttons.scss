@@ -8,9 +8,7 @@
   margin-top: 94px;
   margin-bottom: 0px;
 }
-.button__margin {
-  margin-left: 15px;
-}
+
 .buttons__button {
   width: 120px;
   height: 38px;
@@ -46,17 +44,15 @@
     flex-wrap: wrap;
     flex-basis: calc(100% / 3);
     gap: 8px;
-    justify-content: flex-start;
-    align-content: flex-start;
+    justify-content: center;
+    align-content: center;
     margin-top: 94px;
     margin-bottom: 0px;
   }
-  .button__margin {
-    margin-left: 15px;
-  }
   .buttons__button {
-    width: 120px;
-    height: 38px;
+    width: 100%;
+    height: auto;
+    padding: 6px 22px;
     left: 639px;
     top: 174px;
     border-radius: 4px;
@@ -92,9 +88,6 @@
     align-content: center;
     margin-top: 94px;
     margin-bottom: 0px;
-  }
-  .button__margin {
-    margin-left: 0px;
   }
   .buttons__button {
     width: 93px;

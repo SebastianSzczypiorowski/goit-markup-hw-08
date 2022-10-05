@@ -25,9 +25,9 @@
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
-  width: 270px;
+  width: auto;
   height: 16px;
-  text-align: center;
+  text-align: left;
 }
 .about__text {
   font-size: $text-font;
@@ -55,7 +55,7 @@
     background-color: $svg-background;
     margin-bottom: 30px;
     padding-top: 25px;
-    padding-left: 144.34px;
+    padding-left: 192.34;
   }
   .about__heading {
     margin: 0 auto;
@@ -72,7 +72,8 @@
   .about__text {
     font-size: $text-font;
     line-height: 1.7;
-    width: 354px;
+    width: auto;
+    max-width: 450px;
     height: 75px;
     letter-spacing: 0.03em;
   }
