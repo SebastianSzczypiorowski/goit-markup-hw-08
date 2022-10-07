@@ -28,12 +28,13 @@
   fill: $focus-color;
 }
 .mobile__navigation {
+  position: absolute;
+  left: 40px;
+  top: 48px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 32px;
-  margin-top: 48px;
-  margin-left: 40px;
   padding: 0px;
 }
 .mobile__navigation-name {
@@ -64,6 +65,9 @@
   justify-content: center;
 }
 .mobile__contact-phone {
+  position: absolute;
+  left: 40px;
+  bottom: 254px;
   font-family: $roboto;
   font-style: normal;
   font-weight: 500;
@@ -72,9 +76,11 @@
   text-decoration: none;
   letter-spacing: 0.02em;
   color: $focus-color;
-  margin-left: 40px;
 }
 .mobile__contact-mail {
+  position: absolute;
+  left: 40px;
+  bottom: 194px;
   display: flex;
   align-items: center;
   font-family: $roboto;
@@ -84,7 +90,6 @@
   line-height: 28px;
   letter-spacing: 0.02em;
   text-decoration: none;
-  margin-left: 40px;
   transition: color 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   &:hover,
@@ -99,13 +104,14 @@
   }
 }
 .mobile__socials {
+  position: absolute;
   display: flex;
   flex-wrap: wrap;
   flex-basis: calc(100% / 4);
   flex-direction: row;
   gap: 10px;
-  margin-left: 40px;
-  margin-top: 32px;
+  left: 40px;
+  bottom: 48px;
   margin-bottom: 46px;
   text-decoration: none;
 }

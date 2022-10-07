@@ -228,7 +228,7 @@ label {
     padding-top: 60px;
     padding-bottom: 60px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     text-align: left;
     padding-left: 0px;
     margin-left: 0px;
@@ -338,7 +338,7 @@ label {
 }
 .modal__button {
   position: absolute;
-  left: 412px;
+  right: 8px;
   top: 8px;
   z-index: 12;
   background-color: #ffffff;
@@ -506,6 +506,7 @@ label {
   .socialmedia__svg {
     display: flex;
     flex-direction: column;
+    margin-right: 78px;
     padding: 0px;
     gap: 10px;
     text-align: left;
@@ -621,7 +622,7 @@ label {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    width: 696px;
+    max-width: 696px;
     margin: 0 auto;
   }
 }
@@ -1781,16 +1782,20 @@ label {
   }
   .footer__element {
     display: flex;
-    flex-wrap: wrap;
-    flex-basis: 33.3333333333%;
-    margin-left: 70px;
+    flex-wrap: nowrap;
+    margin-left: 0px;
     margin-right: 77px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    max-width: 1200px;
   }
   .address {
     display: flex;
     flex-direction: column;
     text-align: left;
     gap: 9px;
+    margin-right: 70px;
   }
   .address__link {
     text-align: left;
@@ -1901,8 +1906,9 @@ label {
   top: 50%;
   background-color: #ffffff;
   transform: translateX(-50%) translateY(-50%);
-  width: 450px;
-  height: 609px;
+  width: 100%;
+  max-width: 450px;
+  max-height: 609px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   z-index: 12;
@@ -2545,6 +2551,7 @@ label {
     flex-basis: 20%;
     gap: 8px;
     justify-content: center;
+    justify-items: center;
     align-items: center;
     margin-top: 94px;
   }
@@ -2739,8 +2746,6 @@ label {
     flex-wrap: wrap;
     flex-basis: 50%;
     gap: 30px;
-    align-content: center;
-    justify-content: center;
     padding: 0 15px;
   }
   .product__img {
@@ -2935,12 +2940,13 @@ label {
 }
 
 .mobile__navigation {
+  position: absolute;
+  left: 40px;
+  top: 48px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 32px;
-  margin-top: 48px;
-  margin-left: 40px;
   padding: 0px;
 }
 
@@ -2972,6 +2978,9 @@ label {
 }
 
 .mobile__contact-phone {
+  position: absolute;
+  left: 40px;
+  bottom: 254px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -2980,10 +2989,12 @@ label {
   text-decoration: none;
   letter-spacing: 0.02em;
   color: #2196f3;
-  margin-left: 40px;
 }
 
 .mobile__contact-mail {
+  position: absolute;
+  left: 40px;
+  bottom: 194px;
   display: flex;
   align-items: center;
   font-family: "Roboto";
@@ -2993,7 +3004,6 @@ label {
   line-height: 28px;
   letter-spacing: 0.02em;
   text-decoration: none;
-  margin-left: 40px;
   transition: color 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -3008,13 +3018,14 @@ label {
 }
 
 .mobile__socials {
+  position: absolute;
   display: flex;
   flex-wrap: wrap;
   flex-basis: 25%;
   flex-direction: row;
   gap: 10px;
-  margin-left: 40px;
-  margin-top: 32px;
+  left: 40px;
+  bottom: 48px;
   margin-bottom: 46px;
   text-decoration: none;
 }

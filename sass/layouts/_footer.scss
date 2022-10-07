@@ -172,8 +172,6 @@
   .form {
     display: block;
     width: 450px;
-    // align-items: center;
-    // justify-content: center;
     text-align: center;
     margin-left: 0px;
   }
@@ -245,11 +243,14 @@
   }
   .footer__element {
     display: flex;
-    flex-wrap: wrap;
-    flex-basis: calc(100% / 3);
-    // flex-direction: row;
-    margin-left: 70px;
+    flex-wrap: nowrap;
+    // flex-basis: calc(100% / 3);
+    margin-left: 0px;
     margin-right: 77px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    max-width: 1200px;
   }
 
   .address {
@@ -257,6 +258,7 @@
     flex-direction: column;
     text-align: left;
     gap: 9px;
+    margin-right: 70px;
   }
 
   .address__link {

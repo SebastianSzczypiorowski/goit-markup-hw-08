@@ -4,6 +4,7 @@
   flex-basis: calc(100% / 3);
   gap: 8px;
   justify-content: center;
+
   align-content: center;
   margin-top: 94px;
   margin-bottom: 0px;
@@ -67,6 +68,7 @@
     flex-basis: calc(100% / 5);
     gap: 8px;
     justify-content: center;
+    justify-items: center;
     align-items: center;
     margin-top: 94px;
   }
