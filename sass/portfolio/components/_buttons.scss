@@ -3,14 +3,14 @@
   flex-wrap: wrap;
   flex-basis: calc(100% / 3);
   gap: 8px;
-  justify-content: flex-start;
-  align-content: flex-start;
+  justify-content: center;
+  align-content: center;
   margin-top: 94px;
   margin-bottom: 0px;
 }
 
 .buttons__button {
-  width: 120px;
+  width: 100%;
   height: 38px;
   left: 639px;
   top: 174px;
@@ -37,24 +37,43 @@
     color: $adress-color;
   }
 }
+.button__one {
+  padding-left: 13px;
+  padding-right: 13px;
+}
+.button__two {
+  padding-left: 40px;
+  padding-right: 39px;
+}
+.button__three {
+  padding-left: 37px;
+  padding-right: 38px;
+}
+.button__four {
+  padding-left: 28px;
+  padding-right: 28px;
+}
+.button__five {
+  padding-left: 27px;
+  padding-right: 26px;
+}
 
 @media screen and (max-width: 768px) {
   .buttons {
+    width: 100%;
+    height: auto;
     display: flex;
     flex-wrap: wrap;
-    flex-basis: calc(100% / 3);
+    flex-basis: calc(100% / 5);
     gap: 8px;
     justify-content: center;
-    align-content: center;
+    align-items: center;
     margin-top: 94px;
-    margin-bottom: 0px;
   }
   .buttons__button {
     width: 100%;
     height: auto;
-    padding: 6px 22px;
-    left: 639px;
-    top: 174px;
+    padding: 6px;
     border-radius: 4px;
     background: $background-secondary;
     font-family: $roboto;
@@ -78,6 +97,26 @@
       color: $adress-color;
     }
   }
+}
+.button__one {
+  padding-left: 13px;
+  padding-right: 13px;
+}
+.button__two {
+  padding-left: 40px;
+  padding-right: 39px;
+}
+.button__three {
+  padding-left: 37px;
+  padding-right: 38px;
+}
+.button__four {
+  padding-left: 28px;
+  padding-right: 28px;
+}
+.button__five {
+  padding-left: 27px;
+  padding-right: 26px;
 }
 @media screen and (min-width: 1200px) {
   .buttons {
