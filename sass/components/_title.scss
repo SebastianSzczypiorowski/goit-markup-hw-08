@@ -7,7 +7,9 @@
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  width: 365px;
+  width: 100%;
+  height: auto;
+  max-width: 365px;
   margin: 0 auto;
 }
 @media screen and (min-width: 768px) {
@@ -20,7 +22,9 @@
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    width: 365px;
+    width: 100%;
+    height: auto;
+    max-width: 365px;
     margin: 0 auto;
   }
 }

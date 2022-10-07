@@ -27,7 +27,7 @@
 }
 .footer__container {
   padding-top: 60px;
-  padding-bottom: 60px;
+  margin-bottom: 60px;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -65,8 +65,8 @@
     gap: 30px;
   }
   .footer__container {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    // padding-top: 60px;
+    // padding-bottom: 60px;
     margin: 0px;
     align-items: center;
     justify-content: center;
