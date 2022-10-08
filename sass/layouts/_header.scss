@@ -7,7 +7,7 @@
   }
 }
 .header__border {
-  border-bottom: 1px solid $header-color;
+  border-bottom: 1px solid $header-border;
 }
 .navigation {
   display: none;
@@ -32,7 +32,7 @@
   }
 
   .header__border {
-    border-bottom: 1px solid $header-color;
+    border-bottom: 1px solid $header-border;
   }
 
   .navigation {
@@ -130,7 +130,7 @@
   }
 
   .header__border {
-    border-bottom: 1px solid $header-color;
+    border-bottom: 1px solid $header-border;
   }
 
   .navigation {

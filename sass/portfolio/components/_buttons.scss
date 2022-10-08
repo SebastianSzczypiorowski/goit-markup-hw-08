@@ -131,10 +131,9 @@
     margin-bottom: 0px;
   }
   .buttons__button {
-    width: 93px;
-    height: 38px;
-    left: 639px;
-    top: 174px;
+    width: 100%;
+    height: auto;
+    padding: 6px;
     border-radius: 4px;
     background: $background-secondary;
     font-family: $roboto;
@@ -157,5 +156,25 @@
       cursor: pointer;
       color: $adress-color;
     }
+  }
+  .button__one {
+    padding-left: 13px;
+    padding-right: 13px;
+  }
+  .button__two {
+    padding-left: 40px;
+    padding-right: 39px;
+  }
+  .button__three {
+    padding-left: 37px;
+    padding-right: 38px;
+  }
+  .button__four {
+    padding-left: 28px;
+    padding-right: 28px;
+  }
+  .button__five {
+    padding-left: 27px;
+    padding-right: 26px;
   }
 }

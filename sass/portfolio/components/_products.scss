@@ -196,8 +196,8 @@
     justify-content: center;
   }
   .product__img {
-    width: 370px;
-    height: 294px;
+    width: 100%;
+    height: auto;
   }
   .figure {
     width: 370px;
@@ -248,6 +248,7 @@
   .figcaption {
     border: 1px solid $image-background;
     width: 370px;
+    height: 110px;
   }
   .figcaption__name {
     margin: 20px 24px 4px 24px;

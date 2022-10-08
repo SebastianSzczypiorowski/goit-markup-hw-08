@@ -198,6 +198,8 @@ label {
     width: 1200px;
     margin: 0 auto;
     display: block;
+    align-items: center;
+    justify-content: center;
   }
   .header__container {
     display: flex;
@@ -221,18 +223,17 @@ label {
     width: 1200px;
     margin: 0 auto;
     display: block;
-    padding-top: 94px;
-    padding-bottom: 94px;
+    padding: 94px 0px;
   }
   .footer__container {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    max-width: 1200px;
+    display: block;
     display: flex;
     flex-direction: column;
-    text-align: left;
-    padding-left: 0px;
-    margin-left: 0px;
     align-items: flex-start;
+    margin: 0px;
+    padding: 60px 0px;
+    padding-left: 15px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -303,7 +304,7 @@ label {
 }
 @media screen and (min-width: 1200px) {
   .logo {
-    margin: 24px 93px 30px 15px;
+    margin: 24px 93px 30px 0px;
   }
   .logo__header {
     font-family: "Raleway";
@@ -333,7 +334,7 @@ label {
     margin-left: 0px;
     width: 145px;
     height: 31px;
-    padding-left: 28px;
+    padding-left: 0px;
   }
 }
 .modal__button {
@@ -354,7 +355,7 @@ label {
 @media screen and (min-width: 1200px) {
   .modal__button {
     position: absolute;
-    left: 488px;
+    right: 8px;
     top: 8px;
     z-index: 12;
     background-color: #ffffff;
@@ -507,14 +508,13 @@ label {
     display: flex;
     flex-direction: column;
     margin-right: 78px;
+    margin-left: 0px;
     padding: 0px;
     gap: 10px;
     text-align: left;
-    margin-left: 0px;
-    margin-top: 0px;
     align-items: flex-start;
     justify-content: flex-start;
-    margin-top: 74px;
+    margin-top: 72px;
     width: 206px;
     height: 80px;
   }
@@ -636,7 +636,7 @@ label {
 }
 
 .header__border {
-  border-bottom: 1px solid #212121;
+  border-bottom: 1px solid #ececec;
 }
 
 .navigation {
@@ -663,7 +663,7 @@ label {
     display: none;
   }
   .header__border {
-    border-bottom: 1px solid #212121;
+    border-bottom: 1px solid #ececec;
   }
   .navigation {
     display: flex;
@@ -751,7 +751,7 @@ label {
     display: none;
   }
   .header__border {
-    border-bottom: 1px solid #212121;
+    border-bottom: 1px solid #ececec;
   }
   .navigation {
     display: flex;
@@ -1467,9 +1467,8 @@ label {
 
 @media screen and (min-width: 768px) {
   .clients {
-    margin-top: 60px;
     background-color: #ffffff;
-    margin-bottom: 60px;
+    margin: 60px 0px;
   }
   .clients__header {
     margin-bottom: 50px;
@@ -1781,25 +1780,24 @@ label {
     background-color: #2f303a;
   }
   .footer__element {
-    display: flex;
     flex-wrap: nowrap;
-    margin-left: 0px;
-    margin-right: 77px;
     align-items: flex-start;
     justify-content: flex-start;
     width: 100%;
     max-width: 1200px;
+    margin: 0 auto;
   }
   .address {
     display: flex;
     flex-direction: column;
     text-align: left;
+    align-items: flex-start;
     gap: 9px;
-    margin-right: 70px;
+    margin-right: 60px;
   }
   .address__link {
     text-align: left;
-    margin-left: 28px;
+    margin-left: 0px;
     font-family: "Roboto";
     font-size: 14px;
     line-height: 1.7;
@@ -1816,6 +1814,7 @@ label {
   .address__link-address {
     text-align: left;
     font-family: "Roboto";
+    font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
@@ -1830,9 +1829,10 @@ label {
   .form {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    text-align: center;
+    align-items: flex-start;
+    text-align: left;
     padding-left: 0px;
+    width: 587px;
   }
   .form__header {
     gap: 10px;
@@ -1899,6 +1899,8 @@ label {
   }
 }
 .modal__window {
+  display: flex;
+  flex-direction: column;
   position: absolute;
   align-items: center;
   justify-content: center;
@@ -1907,6 +1909,7 @@ label {
   background-color: #ffffff;
   transform: translateX(-50%) translateY(-50%);
   width: 100%;
+  height: auto;
   max-width: 450px;
   max-height: 609px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -1917,8 +1920,11 @@ label {
 }
 
 .modal__heading {
-  margin-left: 40px;
-  width: 370px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 370px;
   height: 60px;
   margin-top: 40px;
   margin-bottom: 12px;
@@ -1946,8 +1952,10 @@ label {
 .modal__form-input {
   margin-bottom: 10px;
   padding-left: 42px;
-  width: 370px;
+  width: 100%;
+  max-width: 370px;
   height: 40px;
+  margin: 0 auto;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   transition: 250ms;
@@ -2266,8 +2274,8 @@ label {
     top: 50%;
     background-color: #ffffff;
     transform: translateX(-50%) translateY(-50%);
-    width: 526px;
-    height: 581px;
+    min-width: 528px;
+    min-height: 581px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
     z-index: 12;
@@ -2275,6 +2283,8 @@ label {
     transition-duration: 1000ms;
   }
   .modal__heading {
+    width: 448px;
+    height: 23px;
     margin-top: 40px;
     margin-bottom: 12px;
     font-family: "Roboto";
@@ -2615,10 +2625,9 @@ label {
     margin-bottom: 0px;
   }
   .buttons__button {
-    width: 93px;
-    height: 38px;
-    left: 639px;
-    top: 174px;
+    width: 100%;
+    height: auto;
+    padding: 6px;
     border-radius: 4px;
     background: #f5f4fa;
     font-family: "Roboto";
@@ -2637,6 +2646,26 @@ label {
     border-radius: 4px;
     cursor: pointer;
     color: #ffffff;
+  }
+  .button__one {
+    padding-left: 13px;
+    padding-right: 13px;
+  }
+  .button__two {
+    padding-left: 40px;
+    padding-right: 39px;
+  }
+  .button__three {
+    padding-left: 37px;
+    padding-right: 38px;
+  }
+  .button__four {
+    padding-left: 28px;
+    padding-right: 28px;
+  }
+  .button__five {
+    padding-left: 27px;
+    padding-right: 26px;
   }
 }
 .products {
@@ -2838,8 +2867,8 @@ label {
     justify-content: center;
   }
   .product__img {
-    width: 370px;
-    height: 294px;
+    width: 100%;
+    height: auto;
   }
   .figure {
     width: 370px;
@@ -2887,6 +2916,7 @@ label {
   .figcaption {
     border: 1px solid #eeeeee;
     width: 370px;
+    height: 110px;
   }
   .figcaption__name {
     margin: 20px 24px 4px 24px;

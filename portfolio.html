@@ -15,7 +15,7 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto&display=swap"
       rel="stylesheet"
     />
-
+    
     <title>Studio</title>
   </head>
   <body>
@@ -36,13 +36,13 @@
           </ul>
         </nav>
         <div class="contact"> 
-          <a class="contact__link" href="mailto:info@devstudio.com"><svg class="contact__svg-margin" height="17" width="16">
+          <a class="contact__link" href="mailto:info@devstudio.com"><svg class="contact__svg-margin" height="10" width="14">
             <use class="contact__svg" xlink:href="./images/icons.svg#envelope"></use></svg>info@devstudio.com</a>
-          <a class="contact__link" href="tel:+48111111111"><svg class="contact__svg-margin" height="15" width="16">
+          <a class="contact__link" href="tel:+48111111111"><svg class="contact__svg-margin" height="14" width="10">
             <use class="contact__svg" xlink:href="./images/icons.svg#smartphone"></use></svg
           ></use></svg>+48 111 111 111</a>
         </div>
-        <div><svg class="menu__svg"><use
+        <div><svg class="menu__svg js-open-menu"><use class="menu__svg-focus"
           href="./images/icons.svg#icon-menu"></use></svg>
         </div>
       </div>
@@ -308,7 +308,34 @@
              </form>  
            </div>
      </footer>
-
+     <div class="js-menu-container">
+      <svg class="js-close-menu mobile__menu-button"><use class="mobile__svg-focus" href="./images/icons.svg#icon-close"></use></svg>
+      <nav>
+        <ul class="mobile__navigation">
+          <li>
+            <a class="mobile__navigation-name" href="./index.html">Agencja</a>
+          </li>
+          <li>
+            <a class="mobile__navigation-name" href="./portfolio.html">Portfolio</a>
+          </li>
+          <li>
+            <a class="mobile__navigation-name" href="./index.html">Kontakt</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="mobile__contact"> 
+        <a class="mobile__contact-phone" href="tel:+48111111111">+48 111 111 111</a>
+        <a class="mobile__contact-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        <ul class="mobile__socials">
+          <li><a class="mobile__socials-link mobile__socials-border" href="https://instagram.com">Instagram</a></li>
+          <li><a class="mobile__socials-link mobile__socials-border" href="https://twitter.com">Twitter</a></li></li>
+          <li><a class="mobile__socials-link mobile__socials-border" href="https://facebook.com">Facebook</a></li></li>
+          <li><a class="mobile__socials-link" href="https://linkedin.com">Linkedin</a></li></li>
+        </ul>
+      </div>
+    </div>
+     <script src="./js/mobile-menu.js"></script>
     </main>
+    
   </body>
 </html>
