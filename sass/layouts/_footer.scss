@@ -1,11 +1,13 @@
 .footer {
   display: block;
+
   align-items: center;
   justify-content: center;
   background-color: $background-color;
   height: 603px;
 }
 .footer__element {
+  max-width: 480px;
   display: flex;
   flex-wrap: wrap;
   flex-basis: calc(100% / 1);
@@ -129,6 +131,7 @@
 
   .footer__element {
     display: flex;
+    max-width: 768px;
     flex-wrap: wrap;
     flex-basis: calc(100% / 2);
     align-items: center;
@@ -244,7 +247,7 @@
   .footer__element {
     // display: flex;
     flex-wrap: nowrap;
-
+    min-width: 1200px;
     align-items: flex-start;
     justify-content: flex-start;
     width: 100%;

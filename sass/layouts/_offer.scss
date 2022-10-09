@@ -1,5 +1,5 @@
 .offer {
-  width: 1200px;
+  max-width: 480px;
   margin: 0 auto;
   padding-bottom: 94px;
   display: none;
@@ -49,7 +49,7 @@
 }
 @media screen and (min-width: 768px) {
   .offer {
-    width: 1200px;
+    max-width: 768px;
     margin: 0 auto;
     padding-bottom: 94px;
     display: none;
@@ -100,7 +100,7 @@
 }
 @media screen and (min-width: 1200px) {
   .offer {
-    width: 1200px;
+    min-width: 1200px;
     margin: 0 auto;
     padding-bottom: 94px;
     display: flex;
